@@ -1,4 +1,4 @@
-﻿# âš¡ Claude Skills na PrÃ¡tica
+# âš¡ Claude Skills na PrÃ¡tica
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -9,8 +9,8 @@
 Curso completo e prÃ¡tico sobre **construir Agent Skills do Claude Code** â€” do
 `SKILL.md` Ã  arquitetura multi-agente. Site estÃ¡tico, publicado no GitHub Pages.
 
-ðŸ”— **Curso ao vivo:** https://inematds.github.io/claude-skills/
-ðŸ”— **Portal:** [INEMA.CLUB](https://inema.club)
+ðŸ”— **Curso ao vivo:** https://linnoff88-dev.github.io/
+ðŸ”— **Portal:** [ARCKHÉ AI](https://ARCKHÉ AI)
 
 ## Trilhas
 
@@ -44,7 +44,7 @@ python3 -m http.server 8080   # depois abra http://localhost:8080
 
 ---
 
-ConteÃºdo educacional Â· 2026 Â· INEMA.CLUB
+ConteÃºdo educacional Â· 2026 Â· ARCKHÉ AI
 
 ---
 

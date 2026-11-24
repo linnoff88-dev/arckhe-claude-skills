@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Trilha 6 · Arquitetura Avançada de Skills | Claude Skills na Prática</title>
-<meta content="Inteligência de improviso, árvores de skills (meta-skills) e memória multi-agente compartilhada — a trilha avançada do curso Claude Skills na Prática." name="description"/>
+<title>Trilha 6 Â· Arquitetura AvanÃ§ada de Skills | Claude Skills na PrÃ¡tica</title>
+<meta content="InteligÃªncia de improviso, Ã¡rvores de skills (meta-skills) e memÃ³ria multi-agente compartilhada â€” a trilha avanÃ§ada do curso Claude Skills na PrÃ¡tica." name="description"/>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = {
@@ -76,7 +76,7 @@
     .dark .border-dark-600 { border-color: #374151; }
     .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
 
-    /* Animação do hero SVG (segura sob reduced-motion) */
+    /* AnimaÃ§Ã£o do hero SVG (segura sob reduced-motion) */
     @keyframes wf-pulse { 0%,100% { opacity:.5 } 50% { opacity:1 } }
     @media (prefers-reduced-motion: no-preference) {
       .wf-a { animation: wf-pulse 2.8s ease-in-out infinite; }
@@ -84,27 +84,27 @@
       .wf-a:nth-child(4){animation-delay:.9s} .wf-a:nth-child(5){animation-delay:1.2s}
     }
   </style>
-<link href="https://inematds.github.io/claude-skills/curso/trilha6/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/claude-skills/en/curso/trilha6/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/claude-skills/es/curso/trilha6/" hreflang="es" rel="alternate"/></head>
-<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha6/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha6/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="ARCKHÉ-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha6/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha6/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
 <!-- NAV -->
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14">
 <div class="flex items-center space-x-4">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
-<span class="text-2xl">⚡</span>
+<span class="text-2xl">âš¡</span>
 <span class="font-bold text-lg hidden sm:inline">Claude Skills</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" target="_blank">INEMA.CLUB</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a>
 </div>
 <div class="flex items-center space-x-1 sm:space-x-2">
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Primeira Skill</span></a>
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Frontend</span></a>
-<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Automação</span></a>
+<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors" href="../trilha4/index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">AutomaÃ§Ã£o</span></a>
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Consultoria</span></a>
-<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-rose-400 bg-rose-500/10" href="index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Avançado</span></a>
+<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-rose-400 bg-rose-500/10" href="index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">AvanÃ§ado</span></a>
 <button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
@@ -116,33 +116,33 @@
 <!-- HEADER -->
 <header class="bg-gradient-to-br from-rose-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<span class="inline-block px-3 py-1 bg-rose-500/20 text-rose-400 text-xs font-semibold rounded-full mb-4">TRILHA 6 · AVANÇADO</span>
-<h1 class="text-3xl sm:text-4xl font-bold mb-4">🧠 Arquitetura Avançada de Skills</h1>
+<span class="inline-block px-3 py-1 bg-rose-500/20 text-rose-400 text-xs font-semibold rounded-full mb-4">TRILHA 6 Â· AVANÃ‡ADO</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">ðŸ§  Arquitetura AvanÃ§ada de Skills</h1>
 <p class="text-lg text-neutral-400 max-w-3xl">
-        Onde as skills deixam de ser ferramentas isoladas e viram <strong class="text-neutral-300">sistemas</strong>: uma skill que improvisa um pipeline inteiro, uma meta-skill que faz o agente <strong class="text-neutral-300">evoluir</strong> sozinho, e um cérebro de memória que vários agentes compartilham entre máquinas. É a passagem de "uma skill que faz X" para "uma arquitetura que aprende".
+        Onde as skills deixam de ser ferramentas isoladas e viram <strong class="text-neutral-300">sistemas</strong>: uma skill que improvisa um pipeline inteiro, uma meta-skill que faz o agente <strong class="text-neutral-300">evoluir</strong> sozinho, e um cÃ©rebro de memÃ³ria que vÃ¡rios agentes compartilham entre mÃ¡quinas. Ã‰ a passagem de "uma skill que faz X" para "uma arquitetura que aprende".
       </p>
 <!-- Stats -->
 <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 max-w-2xl">
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
 <div class="text-xl font-bold text-rose-400">3</div>
-<div class="text-xs text-neutral-400">Módulos</div>
+<div class="text-xs text-neutral-400">MÃ³dulos</div>
 </div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
 <div class="text-xl font-bold text-rose-400">18</div>
-<div class="text-xs text-neutral-400">Tópicos</div>
+<div class="text-xs text-neutral-400">TÃ³picos</div>
 </div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
 <div class="text-xl font-bold text-rose-400">~3h</div>
-<div class="text-xs text-neutral-400">Duração</div>
+<div class="text-xs text-neutral-400">DuraÃ§Ã£o</div>
 </div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
-<div class="text-xl font-bold text-rose-400">Avançado</div>
-<div class="text-xs text-neutral-400">Nível</div>
+<div class="text-xl font-bold text-rose-400">AvanÃ§ado</div>
+<div class="text-xs text-neutral-400">NÃ­vel</div>
 </div>
 </div>
 <!-- HERO SVG: skill isolada -> sistema que se realimenta -->
 <div class="rounded-2xl border border-rose-500/30 bg-dark-900/40 p-3 sm:p-4 mt-8 overflow-hidden">
-<svg aria-label="Uma skill de origem dispara vários sistemas avançados em paralelo — improviso, meta-skill e memória — que realimentam a origem, deixando-a mais inteligente a cada ciclo" class="w-full h-auto" role="img" viewbox="0 0 1000 250">
+<svg aria-label="Uma skill de origem dispara vÃ¡rios sistemas avanÃ§ados em paralelo â€” improviso, meta-skill e memÃ³ria â€” que realimentam a origem, deixando-a mais inteligente a cada ciclo" class="w-full h-auto" role="img" viewbox="0 0 1000 250">
 <defs>
 <lineargradient id="t6h-grad" x1="0" x2="1" y1="0" y2="1">
 <stop offset="0" stop-color="#fb7185"></stop><stop offset="1" stop-color="#f43f5e"></stop>
@@ -157,13 +157,13 @@
 <marker id="t6h-ahc" markerheight="9" markerwidth="9" orient="auto" refx="6.5" refy="4.5"><path d="M0,0 L8,4.5 L0,9 L2.4,4.5 Z" fill="#38bdf8"></path></marker>
 </defs>
 <rect fill="url(#t6h-grid)" height="250" width="1000" x="0" y="0"></rect>
-<!-- saída: origem -> 3 sistemas -->
+<!-- saÃ­da: origem -> 3 sistemas -->
 <g fill="none" opacity="0.6" stroke="#fb7185" stroke-width="2">
 <path d="M206,125 C320,125 340,62 452,62" marker-end="url(#t6h-ah)"></path>
 <path d="M206,125 L452,125" marker-end="url(#t6h-ah)"></path>
 <path d="M206,125 C320,125 340,188 452,188" marker-end="url(#t6h-ah)"></path>
 </g>
-<!-- volta: 3 sistemas -> origem (ciano, realimentação) -->
+<!-- volta: 3 sistemas -> origem (ciano, realimentaÃ§Ã£o) -->
 <g fill="none" opacity="0.5" stroke="#38bdf8" stroke-width="1.8">
 <path d="M452,40 C320,18 250,40 206,100" marker-end="url(#t6h-ahc)"></path>
 <path d="M452,210 C320,232 250,210 206,150" marker-end="url(#t6h-ahc)"></path>
@@ -174,9 +174,9 @@
 <text fill="#fecdd3" font-family="Inter,sans-serif" font-size="12.5" text-anchor="middle" x="126" y="140">o ponto de partida</text>
 <!-- 3 sistemas -->
 <g font-family="Inter,sans-serif" font-size="13" font-weight="600">
-<g class="wf-a"><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="200" x="452" y="40"></rect><text fill="#bfe6ff" text-anchor="middle" x="552" y="60">🎷 Improviso</text><text fill="#9ad6ff" font-size="11" font-weight="400" text-anchor="middle" x="552" y="76">um comando, pipeline inteiro</text></g>
-<g class="wf-a"><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="200" x="452" y="103"></rect><text fill="#bfe6ff" text-anchor="middle" x="552" y="123">🧬 Meta-skill</text><text fill="#9ad6ff" font-size="11" font-weight="400" text-anchor="middle" x="552" y="139">skills que geram skills</text></g>
-<g class="wf-a"><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="200" x="452" y="166"></rect><text fill="#bfe6ff" text-anchor="middle" x="552" y="186">🧠 Memória</text><text fill="#9ad6ff" font-size="11" font-weight="400" text-anchor="middle" x="552" y="202">cérebro compartilhado</text></g>
+<g class="wf-a"><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="200" x="452" y="40"></rect><text fill="#bfe6ff" text-anchor="middle" x="552" y="60">ðŸŽ· Improviso</text><text fill="#9ad6ff" font-size="11" font-weight="400" text-anchor="middle" x="552" y="76">um comando, pipeline inteiro</text></g>
+<g class="wf-a"><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="200" x="452" y="103"></rect><text fill="#bfe6ff" text-anchor="middle" x="552" y="123">ðŸ§¬ Meta-skill</text><text fill="#9ad6ff" font-size="11" font-weight="400" text-anchor="middle" x="552" y="139">skills que geram skills</text></g>
+<g class="wf-a"><rect fill="#0e1b26" height="44" rx="11" stroke="#38bdf8" stroke-width="2" width="200" x="452" y="166"></rect><text fill="#bfe6ff" text-anchor="middle" x="552" y="186">ðŸ§  MemÃ³ria</text><text fill="#9ad6ff" font-size="11" font-weight="400" text-anchor="middle" x="552" y="202">cÃ©rebro compartilhado</text></g>
 </g>
 <!-- resultado: agente que evolui -->
 <g fill="none" opacity="0.6" stroke="#fb7185" stroke-width="2">
@@ -188,7 +188,7 @@
 <text fill="#fb7185" font-family="Inter,sans-serif" font-size="16" font-weight="600" text-anchor="middle" x="880" y="120">Agente que</text>
 <text fill="#fb7185" font-family="Inter,sans-serif" font-size="16" font-weight="600" text-anchor="middle" x="880" y="140">evolui</text>
 </svg>
-<p class="text-center text-xs text-neutral-500 mt-2">Diagrama ilustrativo · a saída de cada sistema realimenta a sua skill (linhas em ciano), e o conjunto compõe um agente que melhora a cada sessão.</p>
+<p class="text-center text-xs text-neutral-500 mt-2">Diagrama ilustrativo Â· a saÃ­da de cada sistema realimenta a sua skill (linhas em ciano), e o conjunto compÃµe um agente que melhora a cada sessÃ£o.</p>
 </div>
 </div>
 </header>
@@ -202,15 +202,15 @@
 <span class="text-rose-400 font-bold text-sm">6.1</span>
 <span class="text-xs text-neutral-500">~55 min</span>
 </div>
-<h3 class="font-semibold mb-1 group-hover:text-rose-400 transition-colors">🎷 Improvised Intelligence</h3>
-<p class="text-xs text-neutral-400">Um comando, agência inteira</p>
+<h3 class="font-semibold mb-1 group-hover:text-rose-400 transition-colors">ðŸŽ· Improvised Intelligence</h3>
+<p class="text-xs text-neutral-400">Um comando, agÃªncia inteira</p>
 </a>
 <a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-rose-500/30 p-5 transition-all" href="#modulo-6-2">
 <div class="flex items-center justify-between mb-2">
 <span class="text-rose-400 font-bold text-sm">6.2</span>
 <span class="text-xs text-neutral-500">~55 min</span>
 </div>
-<h3 class="font-semibold mb-1 group-hover:text-rose-400 transition-colors">🧬 Taproot: árvore de skills</h3>
+<h3 class="font-semibold mb-1 group-hover:text-rose-400 transition-colors">ðŸ§¬ Taproot: Ã¡rvore de skills</h3>
 <p class="text-xs text-neutral-400">Skills que geram skills</p>
 </a>
 <a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-rose-500/30 p-5 transition-all" href="#modulo-6-3">
@@ -218,13 +218,13 @@
 <span class="text-rose-400 font-bold text-sm">6.3</span>
 <span class="text-xs text-neutral-500">~55 min</span>
 </div>
-<h3 class="font-semibold mb-1 group-hover:text-rose-400 transition-colors">🧠 Multi-Agent Memory</h3>
-<p class="text-xs text-neutral-400">Cérebro entre máquinas</p>
+<h3 class="font-semibold mb-1 group-hover:text-rose-400 transition-colors">ðŸ§  Multi-Agent Memory</h3>
+<p class="text-xs text-neutral-400">CÃ©rebro entre mÃ¡quinas</p>
 </a>
 </div>
 </section>
 <!-- CONTEUDO DETALHADO -->
-<h2 class="text-2xl font-bold mb-6">Conteúdo detalhado</h2>
+<h2 class="text-2xl font-bold mb-6">ConteÃºdo detalhado</h2>
 <!-- ============ MODULO 6.1 ============ -->
 <div class="bg-dark-800 rounded-xl border border-dark-600 mb-6" id="modulo-6-1">
 <div class="p-6 border-b border-dark-600">
@@ -232,91 +232,91 @@
 <span class="text-rose-400 font-bold">6.1</span>
 <span class="text-xs text-neutral-500">~55 min</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">🎷 Improvised Intelligence</h3>
-<p class="text-neutral-400 text-sm">A skill de improviso: um único comando que pesquisa, posiciona, entrega e ainda se observa para virar novas skills. Os três benefícios e como acionar cada fase.</p>
+<h3 class="text-2xl font-bold mb-2">ðŸŽ· Improvised Intelligence</h3>
+<p class="text-neutral-400 text-sm">A skill de improviso: um Ãºnico comando que pesquisa, posiciona, entrega e ainda se observa para virar novas skills. Os trÃªs benefÃ­cios e como acionar cada fase.</p>
 </div>
 <div class="divide-y divide-dark-600">
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">1</span>
-<span class="text-lg">🎷</span>
-<div><span class="font-medium">O que é uma mega-skill</span><span class="text-neutral-500 text-sm ml-2">- Uma skill que orquestra fases</span></div>
+<span class="text-lg">ðŸŽ·</span>
+<div><span class="font-medium">O que Ã© uma mega-skill</span><span class="text-neutral-500 text-sm ml-2">- Uma skill que orquestra fases</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Uma skill grande que costura várias fases de um trabalho complexo (pesquisa → proposta → marca → operação) sob um único ponto de entrada, em vez de uma skill por tarefa.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">É o salto de "uma skill que faz X" para "uma skill que conduz um fluxo de ponta a ponta" — o padrão por trás de sistemas que substituem processos inteiros.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Ponto de entrada único · detecção de fase · fases encadeáveis ou independentes · description "pushy" para não sub-disparar.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Uma skill grande que costura vÃ¡rias fases de um trabalho complexo (pesquisa â†’ proposta â†’ marca â†’ operaÃ§Ã£o) sob um Ãºnico ponto de entrada, em vez de uma skill por tarefa.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Ã‰ o salto de "uma skill que faz X" para "uma skill que conduz um fluxo de ponta a ponta" â€” o padrÃ£o por trÃ¡s de sistemas que substituem processos inteiros.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Ponto de entrada Ãºnico Â· detecÃ§Ã£o de fase Â· fases encadeÃ¡veis ou independentes Â· description "pushy" para nÃ£o sub-disparar.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">2</span>
-<span class="text-lg">🧠</span>
-<div><span class="font-medium">Benefício 1: substitui um fluxo de agência</span><span class="text-neutral-500 text-sm ml-2">- Pesquisa, pitch, marca e operação</span></div>
+<span class="text-lg">ðŸ§ </span>
+<div><span class="font-medium">BenefÃ­cio 1: substitui um fluxo de agÃªncia</span><span class="text-neutral-500 text-sm ml-2">- Pesquisa, pitch, marca e operaÃ§Ã£o</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Uma cadeia de comandos que entrega o que normalmente exigiria várias pessoas: research competitivo, pitch personalizado, sistema de marca e arquitetura operacional de agentes.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Mostra o teto do que uma skill pode entregar — e por que vale modelar o trabalho como fases, não como tarefas soltas.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">"pitch [empresa]" · 5 entregáveis · 8 fases de marca · time de agentes com escalonamento.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Uma cadeia de comandos que entrega o que normalmente exigiria vÃ¡rias pessoas: research competitivo, pitch personalizado, sistema de marca e arquitetura operacional de agentes.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Mostra o teto do que uma skill pode entregar â€” e por que vale modelar o trabalho como fases, nÃ£o como tarefas soltas.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">"pitch [empresa]" Â· 5 entregÃ¡veis Â· 8 fases de marca Â· time de agentes com escalonamento.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">3</span>
-<span class="text-lg">📈</span>
-<div><span class="font-medium">Benefício 2: fica mais esperta a cada sessão</span><span class="text-neutral-500 text-sm ml-2">- O Workflow Spotter</span></div>
+<span class="text-lg">ðŸ“ˆ</span>
+<div><span class="font-medium">BenefÃ­cio 2: fica mais esperta a cada sessÃ£o</span><span class="text-neutral-500 text-sm ml-2">- O Workflow Spotter</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Um detector embutido que observa o que você faz, identifica padrões repetíveis e oferece transformá-los em novas skills automaticamente.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">É a semente da auto-melhoria — o mesmo princípio que você vê na meta-skill (6.2) e no /sessionend (6.3).</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Gatilhos de detecção · checklist de "vale skill?" · formato de sugestão · criar skill quando o usuário aceita.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Um detector embutido que observa o que vocÃª faz, identifica padrÃµes repetÃ­veis e oferece transformÃ¡-los em novas skills automaticamente.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Ã‰ a semente da auto-melhoria â€” o mesmo princÃ­pio que vocÃª vÃª na meta-skill (6.2) e no /sessionend (6.3).</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Gatilhos de detecÃ§Ã£o Â· checklist de "vale skill?" Â· formato de sugestÃ£o Â· criar skill quando o usuÃ¡rio aceita.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
-<span class="text-lg">⚙️</span>
-<div><span class="font-medium">Benefício 3: nasceu em produção</span><span class="text-neutral-500 text-sm ml-2">- Não é teoria</span></div>
+<span class="text-lg">âš™ï¸</span>
+<div><span class="font-medium">BenefÃ­cio 3: nasceu em produÃ§Ã£o</span><span class="text-neutral-500 text-sm ml-2">- NÃ£o Ã© teoria</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Cada peça da skill roda em frentes de negócio reais ao mesmo tempo — foi forjada no uso, não num slide.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Skills nascidas de problema real têm descriptions, defaults e regras melhores do que as inventadas "no papel".</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Forjada no uso · regras de marca explícitas · padrões de alto valor catalogados.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Cada peÃ§a da skill roda em frentes de negÃ³cio reais ao mesmo tempo â€” foi forjada no uso, nÃ£o num slide.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Skills nascidas de problema real tÃªm descriptions, defaults e regras melhores do que as inventadas "no papel".</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Forjada no uso Â· regras de marca explÃ­citas Â· padrÃµes de alto valor catalogados.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
-<span class="text-lg">🗺️</span>
-<div><span class="font-medium">Detecção de fase</span><span class="text-neutral-500 text-sm ml-2">- O comando escolhe o caminho</span></div>
+<span class="text-lg">ðŸ—ºï¸</span>
+<div><span class="font-medium">DetecÃ§Ã£o de fase</span><span class="text-neutral-500 text-sm ml-2">- O comando escolhe o caminho</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Uma tabela "se o usuário disser X → entre na fase Y" que faz a skill se rotear sozinha pelo pedido.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">É o que permite uma skill enorme ter um único ponto de entrada sem virar um labirinto.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Mapa pedido→fase · uma pergunta de desambiguação · fases que rodam em sequência ou sozinhas.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Uma tabela "se o usuÃ¡rio disser X â†’ entre na fase Y" que faz a skill se rotear sozinha pelo pedido.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Ã‰ o que permite uma skill enorme ter um Ãºnico ponto de entrada sem virar um labirinto.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Mapa pedidoâ†’fase Â· uma pergunta de desambiguaÃ§Ã£o Â· fases que rodam em sequÃªncia ou sozinhas.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
-<span class="text-lg">🔁</span>
-<div><span class="font-medium">Como usar na prática</span><span class="text-neutral-500 text-sm ml-2">- Acionando cada fase</span></div>
+<span class="text-lg">ðŸ”</span>
+<div><span class="font-medium">Como usar na prÃ¡tica</span><span class="text-neutral-500 text-sm ml-2">- Acionando cada fase</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Frases-comando ("pitch X", "build brand book for Y", "build my agent system") que disparam a fase certa e a cadeia completa quando você quer tudo.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Você sai do módulo sabendo acionar e adaptar a skill à sua marca e ao seu estilo.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Comandos por fase · personalização da voz · capturar o próprio fluxo no fim.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Frases-comando ("pitch X", "build brand book for Y", "build my agent system") que disparam a fase certa e a cadeia completa quando vocÃª quer tudo.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">VocÃª sai do mÃ³dulo sabendo acionar e adaptar a skill Ã  sua marca e ao seu estilo.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Comandos por fase Â· personalizaÃ§Ã£o da voz Â· capturar o prÃ³prio fluxo no fim.</p></div>
 </div>
 </div>
 </div>
@@ -333,91 +333,91 @@
 <span class="text-rose-400 font-bold">6.2</span>
 <span class="text-xs text-neutral-500">~55 min</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">🧬 Taproot: árvore de skills (meta-skill)</h3>
-<p class="text-neutral-400 text-sm">Um CLAUDE.md que ensina o agente a melhorar com o tempo: nome, classe, nível, XP e uma árvore de skills que você abre no navegador. Uma skill que organiza outras skills.</p>
+<h3 class="text-2xl font-bold mb-2">ðŸ§¬ Taproot: Ã¡rvore de skills (meta-skill)</h3>
+<p class="text-neutral-400 text-sm">Um CLAUDE.md que ensina o agente a melhorar com o tempo: nome, classe, nÃ­vel, XP e uma Ã¡rvore de skills que vocÃª abre no navegador. Uma skill que organiza outras skills.</p>
 </div>
 <div class="divide-y divide-dark-600">
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">1</span>
-<span class="text-lg">🧬</span>
-<div><span class="font-medium">O que é uma meta-skill</span><span class="text-neutral-500 text-sm ml-2">- Skill que organiza skills</span></div>
+<span class="text-lg">ðŸ§¬</span>
+<div><span class="font-medium">O que Ã© uma meta-skill</span><span class="text-neutral-500 text-sm ml-2">- Skill que organiza skills</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Não uma skill que executa uma tarefa, mas uma que governa como as outras nascem, ganham peso e se conectam — um sistema de habilidades sobre o agente.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">É o conceito mais alto da trilha: a skill deixa de ser conteúdo e vira o motor de evolução do próprio agente.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">CLAUDE.md como base · agente com nome/classe/nível/XP · árvore de skills navegável.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">NÃ£o uma skill que executa uma tarefa, mas uma que governa como as outras nascem, ganham peso e se conectam â€” um sistema de habilidades sobre o agente.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Ã‰ o conceito mais alto da trilha: a skill deixa de ser conteÃºdo e vira o motor de evoluÃ§Ã£o do prÃ³prio agente.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">CLAUDE.md como base Â· agente com nome/classe/nÃ­vel/XP Â· Ã¡rvore de skills navegÃ¡vel.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">2</span>
-<span class="text-lg">⚡</span>
-<div><span class="font-medium">Benefício 1: skills auto-geradas</span><span class="text-neutral-500 text-sm ml-2">- Erro repetido vira correção</span></div>
+<span class="text-lg">âš¡</span>
+<div><span class="font-medium">BenefÃ­cio 1: skills auto-geradas</span><span class="text-neutral-500 text-sm ml-2">- Erro repetido vira correÃ§Ã£o</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Quando o agente pega o mesmo erro duas vezes, ele cria uma correção permanente; quando vê um padrão, formaliza numa skill reutilizável.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Transforma falhas e repetições em capital — o agente para de redescobrir o que já aprendeu.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Loop de criação · XP e raridade (Comum→Lendária) · pesos que incentivam construir skills.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Quando o agente pega o mesmo erro duas vezes, ele cria uma correÃ§Ã£o permanente; quando vÃª um padrÃ£o, formaliza numa skill reutilizÃ¡vel.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Transforma falhas e repetiÃ§Ãµes em capital â€” o agente para de redescobrir o que jÃ¡ aprendeu.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Loop de criaÃ§Ã£o Â· XP e raridade (Comumâ†’LendÃ¡ria) Â· pesos que incentivam construir skills.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">3</span>
-<span class="text-lg">📐</span>
-<div><span class="font-medium">Benefício 2: planeja antes de construir</span><span class="text-neutral-500 text-sm ml-2">- Gap analysis</span></div>
+<span class="text-lg">ðŸ“</span>
+<div><span class="font-medium">BenefÃ­cio 2: planeja antes de construir</span><span class="text-neutral-500 text-sm ml-2">- Gap analysis</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">A meta-skill roda uma análise das próprias suposições e propõe um plano antes de escrever uma linha de código — ela pergunta o que não sabe em vez de chutar.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">É o antídoto contra o agente que sai codando em cima de premissas erradas.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Análise de lacunas · plano de build · perguntar antes de assumir.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">A meta-skill roda uma anÃ¡lise das prÃ³prias suposiÃ§Ãµes e propÃµe um plano antes de escrever uma linha de cÃ³digo â€” ela pergunta o que nÃ£o sabe em vez de chutar.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Ã‰ o antÃ­doto contra o agente que sai codando em cima de premissas erradas.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">AnÃ¡lise de lacunas Â· plano de build Â· perguntar antes de assumir.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
-<span class="text-lg">🌳</span>
-<div><span class="font-medium">Benefício 3: uma árvore que você vê</span><span class="text-neutral-500 text-sm ml-2">- HTML do skill tree</span></div>
+<span class="text-lg">ðŸŒ³</span>
+<div><span class="font-medium">BenefÃ­cio 3: uma Ã¡rvore que vocÃª vÃª</span><span class="text-neutral-500 text-sm ml-2">- HTML do skill tree</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Uma página HTML gerada que mostra o crescimento do agente: cartão de perfil, arsenal de skills e um grafo de conexões entre elas.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Tornar o progresso visível muda o comportamento — você vê o que o agente sabe e o que falta.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Perfil + arsenal + grafo · níveis e XP visuais · progressão de classe.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Uma pÃ¡gina HTML gerada que mostra o crescimento do agente: cartÃ£o de perfil, arsenal de skills e um grafo de conexÃµes entre elas.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Tornar o progresso visÃ­vel muda o comportamento â€” vocÃª vÃª o que o agente sabe e o que falta.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Perfil + arsenal + grafo Â· nÃ­veis e XP visuais Â· progressÃ£o de classe.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
-<span class="text-lg">📥</span>
-<div><span class="font-medium">Como usar: do CLAUDE.md à árvore</span><span class="text-neutral-500 text-sm ml-2">- 30s de onboarding</span></div>
+<span class="text-lg">ðŸ“¥</span>
+<div><span class="font-medium">Como usar: do CLAUDE.md Ã  Ã¡rvore</span><span class="text-neutral-500 text-sm ml-2">- 30s de onboarding</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">O fluxo de adoção: largar o CLAUDE.md na raiz do projeto, abrir o agente, fazer um onboarding curto, construir algo e abrir a árvore.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Mostra que algo tão poderoso pode entrar num projeto com fricção quase zero.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Arquivo na raiz · onboarding de 30s · build → abrir o skill tree · addon multi-agente opcional.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">O fluxo de adoÃ§Ã£o: largar o CLAUDE.md na raiz do projeto, abrir o agente, fazer um onboarding curto, construir algo e abrir a Ã¡rvore.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Mostra que algo tÃ£o poderoso pode entrar num projeto com fricÃ§Ã£o quase zero.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Arquivo na raiz Â· onboarding de 30s Â· build â†’ abrir o skill tree Â· addon multi-agente opcional.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
-<span class="text-lg">🔮</span>
-<div><span class="font-medium">A visão de futuro</span><span class="text-neutral-500 text-sm ml-2">- Marketplace e fusão de skills</span></div>
+<span class="text-lg">ðŸ”®</span>
+<div><span class="font-medium">A visÃ£o de futuro</span><span class="text-neutral-500 text-sm ml-2">- Marketplace e fusÃ£o de skills</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Onde a ideia pode chegar: mercado de skills, perfis de comunidade, comparação entre agentes e fusão de skills que disparam juntas.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Pensar a visão ajuda a desenhar a sua própria meta-skill com espaço para crescer.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Marketplace · vitrines/perfis · comparação RPG · skill fusion (skills compostas).</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Onde a ideia pode chegar: mercado de skills, perfis de comunidade, comparaÃ§Ã£o entre agentes e fusÃ£o de skills que disparam juntas.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Pensar a visÃ£o ajuda a desenhar a sua prÃ³pria meta-skill com espaÃ§o para crescer.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Marketplace Â· vitrines/perfis Â· comparaÃ§Ã£o RPG Â· skill fusion (skills compostas).</p></div>
 </div>
 </div>
 </div>
@@ -434,91 +434,91 @@
 <span class="text-rose-400 font-bold">6.3</span>
 <span class="text-xs text-neutral-500">~55 min</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">🧠 Multi-Agent Memory + /sessionend</h3>
-<p class="text-neutral-400 text-sm">Um cérebro compartilhado entre agentes e máquinas: tipos de memória, ciclo de vida, briefings de sessão e o ritual /sessionend que faz cada sessão deixar o sistema mais inteligente.</p>
+<h3 class="text-2xl font-bold mb-2">ðŸ§  Multi-Agent Memory + /sessionend</h3>
+<p class="text-neutral-400 text-sm">Um cÃ©rebro compartilhado entre agentes e mÃ¡quinas: tipos de memÃ³ria, ciclo de vida, briefings de sessÃ£o e o ritual /sessionend que faz cada sessÃ£o deixar o sistema mais inteligente.</p>
 </div>
 <div class="divide-y divide-dark-600">
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">1</span>
-<span class="text-lg">🧠</span>
+<span class="text-lg">ðŸ§ </span>
 <div><span class="font-medium">O problema: agentes que esquecem</span><span class="text-neutral-500 text-sm ml-2">- Cada um na sua bolha</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Vários agentes (dev, autônomos, automações) mantêm contexto separado e esquecem tudo entre sessões — quando um descobre algo, os outros nunca ficam sabendo.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Entender o problema é o que justifica investir num cérebro compartilhado em vez de mais um key-value.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Contexto isolado · amnésia entre sessões · descobertas que não se propagam.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">VÃ¡rios agentes (dev, autÃ´nomos, automaÃ§Ãµes) mantÃªm contexto separado e esquecem tudo entre sessÃµes â€” quando um descobre algo, os outros nunca ficam sabendo.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Entender o problema Ã© o que justifica investir num cÃ©rebro compartilhado em vez de mais um key-value.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Contexto isolado Â· amnÃ©sia entre sessÃµes Â· descobertas que nÃ£o se propagam.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">2</span>
-<span class="text-lg">🧩</span>
-<div><span class="font-medium">Os 4 tipos de memória</span><span class="text-neutral-500 text-sm ml-2">- Evento, fato, status, decisão</span></div>
+<span class="text-lg">ðŸ§©</span>
+<div><span class="font-medium">Os 4 tipos de memÃ³ria</span><span class="text-neutral-500 text-sm ml-2">- Evento, fato, status, decisÃ£o</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Um fato e um evento são coisas diferentes — cada tipo tem ciclo de vida e regra de mutação próprios: evento é imutável, fato faz upsert, status atualiza no lugar, decisão guarda o porquê.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Essa taxonomia é o que separa um sistema de memória de verdade de um saco de strings.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">event (append-only) · fact (upsert por key) · status (update por subject) · decision (com raciocínio).</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Um fato e um evento sÃ£o coisas diferentes â€” cada tipo tem ciclo de vida e regra de mutaÃ§Ã£o prÃ³prios: evento Ã© imutÃ¡vel, fato faz upsert, status atualiza no lugar, decisÃ£o guarda o porquÃª.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Essa taxonomia Ã© o que separa um sistema de memÃ³ria de verdade de um saco de strings.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">event (append-only) Â· fact (upsert por key) Â· status (update por subject) Â· decision (com raciocÃ­nio).</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">3</span>
-<span class="text-lg">🔄</span>
-<div><span class="font-medium">O ciclo de vida da memória</span><span class="text-neutral-500 text-sm ml-2">- Dedup, supersede, decay</span></div>
+<span class="text-lg">ðŸ”„</span>
+<div><span class="font-medium">O ciclo de vida da memÃ³ria</span><span class="text-neutral-500 text-sm ml-2">- Dedup, supersede, decay</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Cada memória passa por uma esteira: deduplicação por hash, cadeia de supersedes, decaimento de confiança e consolidação por LLM a cada 6 horas.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">É o que mantém o cérebro útil em vez de virar um depósito que só cresce.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">SHA-256 dedup · supersede por key/subject · decaimento 2%/dia · consolidação que organiza enquanto você dorme.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Cada memÃ³ria passa por uma esteira: deduplicaÃ§Ã£o por hash, cadeia de supersedes, decaimento de confianÃ§a e consolidaÃ§Ã£o por LLM a cada 6 horas.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Ã‰ o que mantÃ©m o cÃ©rebro Ãºtil em vez de virar um depÃ³sito que sÃ³ cresce.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">SHA-256 dedup Â· supersede por key/subject Â· decaimento 2%/dia Â· consolidaÃ§Ã£o que organiza enquanto vocÃª dorme.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
-<span class="text-lg">🛡️</span>
-<div><span class="font-medium">Segurança e isolamento</span><span class="text-neutral-500 text-sm ml-2">- A API é o porteiro</span></div>
+<span class="text-lg">ðŸ›¡ï¸</span>
+<div><span class="font-medium">SeguranÃ§a e isolamento</span><span class="text-neutral-500 text-sm ml-2">- A API Ã© o porteiro</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Nenhum agente toca o banco direto — a API valida tudo, limpa credenciais antes de armazenar e impede que um agente apague ou altere a memória de outro.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Memória compartilhada por agentes autônomos só é segura com um gatekeeper bem desenhado.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Credential scrubbing · isolamento de agente · auth timing-safe + rate limit.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Nenhum agente toca o banco direto â€” a API valida tudo, limpa credenciais antes de armazenar e impede que um agente apague ou altere a memÃ³ria de outro.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">MemÃ³ria compartilhada por agentes autÃ´nomos sÃ³ Ã© segura com um gatekeeper bem desenhado.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Credential scrubbing Â· isolamento de agente Â· auth timing-safe + rate limit.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
-<span class="text-lg">📊</span>
-<div><span class="font-medium">Briefings de sessão</span><span class="text-neutral-500 text-sm ml-2">- "O que houve desde a última vez?"</span></div>
+<span class="text-lg">ðŸ“Š</span>
+<div><span class="font-medium">Briefings de sessÃ£o</span><span class="text-neutral-500 text-sm ml-2">- "O que houve desde a Ãºltima vez?"</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Toda sessão começa com uma chamada que devolve as novidades de todos os outros agentes — sem você ter que lembrar de ir olhar logs.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">É onde a coordenação entre agentes realmente acontece, de forma passiva.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Endpoint de briefing · exclui o próprio agente · ordenado por importância e recência.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Toda sessÃ£o comeÃ§a com uma chamada que devolve as novidades de todos os outros agentes â€” sem vocÃª ter que lembrar de ir olhar logs.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Ã‰ onde a coordenaÃ§Ã£o entre agentes realmente acontece, de forma passiva.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Endpoint de briefing Â· exclui o prÃ³prio agente Â· ordenado por importÃ¢ncia e recÃªncia.</p></div>
 </div>
 </div>
 </div>
 <div class="topic-item">
 <button class="w-full px-6 py-4 flex items-center space-x-3 hover:bg-dark-700/50 transition-colors text-left" onclick="toggleTopic(this)">
 <span class="w-6 h-6 rounded-full bg-rose-500/20 text-rose-400 text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
-<span class="text-lg">🔥</span>
-<div><span class="font-medium">O ritual /sessionend</span><span class="text-neutral-500 text-sm ml-2">- Loop de inteligência composta</span></div>
+<span class="text-lg">ðŸ”¥</span>
+<div><span class="font-medium">O ritual /sessionend</span><span class="text-neutral-500 text-sm ml-2">- Loop de inteligÃªncia composta</span></div>
 </button>
 <div class="topic-explanation px-6 pb-4">
 <div class="bg-dark-700/50 rounded-lg p-4 space-y-3 ml-9">
-<div><span class="text-rose-400 font-semibold">O que é:</span><p class="text-neutral-300 text-sm">Uma skill que, ao fim de cada sessão, reúne o que aconteceu, reflete com honestidade ("correu tudo bem" não é reflexão válida) e guarda um resumo estruturado no cérebro.</p></div>
-<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Fecha o loop: o fim de sessão alimenta a consolidação, que alimenta o briefing da próxima — cada sessão deixa todas as futuras mais espertas.</p></div>
-<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Gather → reflect → store → update · reflexão honesta obrigatória · loop que compõe.</p></div>
+<div><span class="text-rose-400 font-semibold">O que Ã©:</span><p class="text-neutral-300 text-sm">Uma skill que, ao fim de cada sessÃ£o, reÃºne o que aconteceu, reflete com honestidade ("correu tudo bem" nÃ£o Ã© reflexÃ£o vÃ¡lida) e guarda um resumo estruturado no cÃ©rebro.</p></div>
+<div><span class="text-rose-400 font-semibold">Por que aprender:</span><p class="text-neutral-300 text-sm">Fecha o loop: o fim de sessÃ£o alimenta a consolidaÃ§Ã£o, que alimenta o briefing da prÃ³xima â€” cada sessÃ£o deixa todas as futuras mais espertas.</p></div>
+<div><span class="text-rose-400 font-semibold">Conceitos-chave:</span><p class="text-neutral-300 text-sm">Gather â†’ reflect â†’ store â†’ update Â· reflexÃ£o honesta obrigatÃ³ria Â· loop que compÃµe.</p></div>
 </div>
 </div>
 </div>
@@ -531,18 +531,18 @@
 <!-- NAVEGACAO ENTRE TRILHAS -->
 <section class="mt-12">
 <div class="flex flex-col sm:flex-row gap-4">
-<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="../trilha5/index.html">← Trilha 5: Consultoria AI</a>
-<a class="flex-1 text-center px-6 py-3 bg-rose-600 text-white rounded-lg font-semibold hover:bg-rose-500 transition-colors" href="../../index.html">🏁 Trilha final — Voltar ao início</a>
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="../trilha5/index.html">â† Trilha 5: Consultoria AI</a>
+<a class="flex-1 text-center px-6 py-3 bg-rose-600 text-white rounded-lg font-semibold hover:bg-rose-500 transition-colors" href="../../index.html">ðŸ Trilha final â€” Voltar ao inÃ­cio</a>
 </div>
-<p class="text-center text-neutral-500 text-sm mt-4">Esta é a última trilha do curso. Você chegou ao fim da jornada de Claude Skills na Prática.</p>
+<p class="text-center text-neutral-500 text-sm mt-4">Esta Ã© a Ãºltima trilha do curso. VocÃª chegou ao fim da jornada de Claude Skills na PrÃ¡tica.</p>
 </section>
 </main>
 <!-- MODAIS -->
 <div class="modal hidden fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80" id="modal-6-1" onclick="if(event.target === this) closeModal()">
 <div class="bg-dark-800 rounded-xl w-full max-w-6xl h-[95vh] flex flex-col border border-dark-600">
 <div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0">
-<div class="flex items-center space-x-3"><span class="text-rose-400 font-bold">6.1</span><span class="font-semibold">🎷 Improvised Intelligence</span></div>
-<button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button>
+<div class="flex items-center space-x-3"><span class="text-rose-400 font-bold">6.1</span><span class="font-semibold">ðŸŽ· Improvised Intelligence</span></div>
+<button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">Ã—</button>
 </div>
 <iframe class="flex-1 w-full rounded-b-xl" src="modulo-6-1.html"></iframe>
 </div>
@@ -550,8 +550,8 @@
 <div class="modal hidden fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80" id="modal-6-2" onclick="if(event.target === this) closeModal()">
 <div class="bg-dark-800 rounded-xl w-full max-w-6xl h-[95vh] flex flex-col border border-dark-600">
 <div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0">
-<div class="flex items-center space-x-3"><span class="text-rose-400 font-bold">6.2</span><span class="font-semibold">🧬 Taproot: árvore de skills</span></div>
-<button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button>
+<div class="flex items-center space-x-3"><span class="text-rose-400 font-bold">6.2</span><span class="font-semibold">ðŸ§¬ Taproot: Ã¡rvore de skills</span></div>
+<button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">Ã—</button>
 </div>
 <iframe class="flex-1 w-full rounded-b-xl" src="modulo-6-2.html"></iframe>
 </div>
@@ -559,16 +559,16 @@
 <div class="modal hidden fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/80" id="modal-6-3" onclick="if(event.target === this) closeModal()">
 <div class="bg-dark-800 rounded-xl w-full max-w-6xl h-[95vh] flex flex-col border border-dark-600">
 <div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0">
-<div class="flex items-center space-x-3"><span class="text-rose-400 font-bold">6.3</span><span class="font-semibold">🧠 Multi-Agent Memory + /sessionend</span></div>
-<button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button>
+<div class="flex items-center space-x-3"><span class="text-rose-400 font-bold">6.3</span><span class="font-semibold">ðŸ§  Multi-Agent Memory + /sessionend</span></div>
+<button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">Ã—</button>
 </div>
 <iframe class="flex-1 w-full rounded-b-xl" src="modulo-6-3.html"></iframe>
 </div>
 </div>
 <footer class="border-t border-dark-600 py-8 mt-16">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p class="mb-2">⚡ Claude Skills na Prática — 2026 · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a></p>
-<p>Trilha 6 · Arquitetura Avançada de Skills</p>
+<p class="mb-2">âš¡ Claude Skills na PrÃ¡tica â€” 2026 Â· <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a></p>
+<p>Trilha 6 Â· Arquitetura AvanÃ§ada de Skills</p>
 </div>
 </footer>
 <script>
