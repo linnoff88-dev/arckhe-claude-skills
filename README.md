@@ -1,4 +1,4 @@
-# âš¡ Claude Skills na PrÃ¡tica
+# ê¢Å¡Â¡ Claude Skills na PrêÂ¡tica
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,31 +6,31 @@
 </div>
 
 
-Curso completo e prÃ¡tico sobre **construir Agent Skills do Claude Code** â€” do
-`SKILL.md` Ã  arquitetura multi-agente. Site estÃ¡tico, publicado no GitHub Pages.
+Curso completo e prêÂ¡tico sobre **construir Agent Skills do Claude Code** ê¢â¬â do
+`SKILL.md` êÂ  arquitetura multi-agente. Site estêÂ¡tico, publicado no GitHub Pages.
 
-ðŸ”— **Curso ao vivo:** https://linnoff88-dev.github.io/
-ðŸ”— **Portal:** [ARCKHÉ AI](https://ARCKHÉ AI)
+ê°Å¸ââ **Curso ao vivo:** https://linnoff88-dev.github.io/
+ê°Å¸ââ **Portal:** [ARCKHê AI](https://ARCKHê AI)
 
 ## Trilhas
 
-| # | Trilha | MÃ³dulos |
+| # | Trilha | MêÂ³dulos |
 |---|--------|---------|
-| 1 | ðŸ§¬ Fundamentos de Agent Skills | Anatomia Â· Progressive disclosure Â· Descriptions que disparam Â· Regras 2026 |
-| 2 | ðŸš€ Construindo Sua Primeira Skill | Dissecando um gerador de itinerÃ¡rios Â· Setup flow â†’ HTML |
-| 3 | ðŸŽ¨ Skills de Frontend & GeraÃ§Ã£o | Vibe Coding Â· Funnel Builder |
-| 4 | âš™ï¸ Skills de AutomaÃ§Ã£o & Dados | n8n Reviewer Â· Local Leads Â· Lead Scoring (Apify) |
-| 5 | ðŸ’¼ Skills de Consultoria AI | Onboarding + Audit Â· SEO/AEO Auditor Â· RAG Architect |
-| 6 | ðŸ§  Arquitetura AvanÃ§ada de Skills | Improvised Intelligence Â· Taproot Â· Multi-Agent Memory |
+| 1 | ê°Å¸Â§Â¬ Fundamentos de Agent Skills | Anatomia êÂ· Progressive disclosure êÂ· Descriptions que disparam êÂ· Regras 2026 |
+| 2 | ê°Å¸Å¡â¬ Construindo Sua Primeira Skill | Dissecando um gerador de itinerêÂ¡rios êÂ· Setup flow ê¢â â HTML |
+| 3 | ê°Å¸Å½Â¨ Skills de Frontend & GeraêÂ§êÂ£o | Vibe Coding êÂ· Funnel Builder |
+| 4 | ê¢Å¡â¢ê¯Â¸Â Skills de AutomaêÂ§êÂ£o & Dados | n8n Reviewer êÂ· Local Leads êÂ· Lead Scoring (Apify) |
+| 5 | ê°Å¸âÂ¼ Skills de Consultoria AI | Onboarding + Audit êÂ· SEO/AEO Auditor êÂ· RAG Architect |
+| 6 | ê°Å¸Â§Â  Arquitetura AvanêÂ§ada de Skills | Improvised Intelligence êÂ· Taproot êÂ· Multi-Agent Memory |
 
-**17 mÃ³dulos Â· 102 tÃ³picos Â· 12 skills reais para download.**
+**17 mêÂ³dulos êÂ· 102 têÂ³picos êÂ· 12 skills reais para download.**
 
 ## Estrutura
 
 ```
 index.html              # Landing
-skills.html             # Central de Skills (download + instalaÃ§Ã£o)
-curso/trilhaN/          # Index da trilha + mÃ³dulos (modulo-N-M.html)
+skills.html             # Central de Skills (download + instalaêÂ§êÂ£o)
+curso/trilhaN/          # Index da trilha + mêÂ³dulos (modulo-N-M.html)
 skills/                 # Arquivos das skills (.skill / .md / .py)
 ```
 
@@ -44,7 +44,7 @@ python3 -m http.server 8080   # depois abra http://localhost:8080
 
 ---
 
-ConteÃºdo educacional Â· 2026 Â· ARCKHÉ AI
+ConteêÂºdo educacional êÂ· 2026 êÂ· ARCKHê AI
 
 ---
 

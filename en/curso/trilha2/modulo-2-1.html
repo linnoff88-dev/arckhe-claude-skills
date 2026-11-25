@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Module 2.1 â€” Dissecting an itinerary generator | Claude Skills</title>
+<title>Module 2.1 ê¢â¬â Dissecting an itinerary generator | Claude Skills</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = {
@@ -72,7 +72,7 @@
     .dark .border-dark-600 { border-color: #374151; }
     .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
 
-    /* Pulso dos nÃ³s do SVG */
+    /* Pulso dos nêÂ³s do SVG */
     @keyframes wf-pulse { 0%,100% { opacity:.55 } 50% { opacity:1 } }
     @media (prefers-reduced-motion: no-preference) {
       .wf-a { animation: wf-pulse 2.6s ease-in-out infinite; }
@@ -81,18 +81,18 @@
     }
   </style>
 <link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/></head>
-<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="ARCKHÉ-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha2/modulo-2-1.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-1.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../../../es/curso/trilha2/modulo-2-1.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="ARCKHê-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha2/modulo-2-1.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-2-1.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../../../es/curso/trilha2/modulo-2-1.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
 <!-- NAV -->
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14">
 <div class="flex items-center space-x-4">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
-<span class="text-2xl">âš¡</span>
+<span class="text-2xl">ê¢Å¡Â¡</span>
 <span class="font-bold text-lg hidden sm:inline">Claude Skills</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHê AI" target="_blank">ARCKHê AI</a>
 </div>
 <div class="flex items-center space-x-1 sm:space-x-2">
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentals</span></a>
@@ -123,9 +123,9 @@
 <header class="bg-gradient-to-br from-blue-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 <span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-semibold rounded-full mb-4">MODULE 2.1</span>
-<h1 class="text-3xl sm:text-4xl font-bold mb-4">ðŸ” Dissecting an Itinerary Generator</h1>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">ê°Å¸âÂ Dissecting an Itinerary Generator</h1>
 <p class="text-lg text-neutral-400 max-w-3xl">
-        Letâ€™s open a <code class="text-blue-400 font-mono">SKILL.md</code> complete and realâ€”the one for a travel itinerary generatorâ€”and read each section as if you were about to write the next one. You'll come away understanding the promise, the intake flow, the integrations, and the principles that keep everything coherent.
+        Letê¢â¬â¢s open a <code class="text-blue-400 font-mono">SKILL.md</code> complete and realê¢â¬âthe one for a travel itinerary generatorê¢â¬âand read each section as if you were about to write the next one. You'll come away understanding the promise, the intake flow, the integrations, and the principles that keep everything coherent.
       </p>
 <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 max-w-2xl">
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">6</div><div class="text-xs text-neutral-400">Topics</div></div>
@@ -136,7 +136,7 @@
 </div>
 </header>
 <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-<!-- VISÃƒO GERAL: SVG da estrutura do SKILL.md -->
+<!-- VISêÆO GERAL: SVG da estrutura do SKILL.md -->
 <section class="mb-16">
 <p class="text-neutral-300 mb-6 leading-relaxed">
         Before the topics, an overview from above. A <code class="text-blue-400 font-mono">SKILL.md</code> for production isn't a wall of text: it's a document with <strong class="text-blue-400">named sections</strong>, each answering a Claude question at runtime. The diagram below shows the backbone of the file we're about to dissect.
@@ -154,7 +154,7 @@
 <g filter="url(#m21-glow)"><rect fill="#0e1622" height="56" rx="13" stroke="url(#m21-grad)" stroke-width="2.5" width="170" x="24" y="40"></rect></g>
 <text fill="#60a5fa" font-family="Inter,sans-serif" font-size="14" font-weight="600" text-anchor="middle" x="109" y="64">Trigger + promise</text>
 <text fill="#bcd6ff" font-family="Inter,sans-serif" font-size="11" text-anchor="middle" x="109" y="83">"what it does"</text>
-<!-- linha vertical de seÃ§Ãµes -->
+<!-- linha vertical de seêÂ§êÂµes -->
 <g fill="none" font-family="Inter,sans-serif" font-size="13" font-weight="600">
 <g><rect fill="#0e1622" height="34" rx="9" stroke="#60a5fa" stroke-width="2" width="200" x="250" y="20"></rect><text fill="#bcd6ff" text-anchor="middle" x="350" y="42">Setup Flow (CRITICAL)</text></g>
 <g><rect fill="#0e1622" height="34" rx="9" stroke="#60a5fa" stroke-width="2" width="200" x="250" y="64"></rect><text fill="#bcd6ff" text-anchor="middle" x="350" y="86">Design System</text></g>
@@ -167,7 +167,7 @@
 <path d="M194,68 L248,125" fill="none" marker-end="url(#m21-ah)" opacity="0.4" stroke="#60a5fa" stroke-width="1.8"></path>
 <path d="M194,68 C224,68 226,169 248,169" fill="none" marker-end="url(#m21-ah)" opacity="0.4" stroke="#60a5fa" stroke-width="1.8"></path>
 <path d="M194,68 C228,68 230,213 248,213" fill="none" marker-end="url(#m21-ah)" opacity="0.4" stroke="#60a5fa" stroke-width="1.8"></path>
-<!-- saÃ­da -->
+<!-- saêÂ­da -->
 <g filter="url(#m21-glow)"><rect fill="#0e1622" height="62" rx="14" stroke="url(#m21-grad)" stroke-width="2.5" width="174" x="800" y="84"></rect></g>
 <text fill="#60a5fa" font-family="Inter,sans-serif" font-size="15" font-weight="600" text-anchor="middle" x="887" y="110">HTML page</text>
 <text fill="#bcd6ff" font-family="Inter,sans-serif" font-size="11" text-anchor="middle" x="887" y="130">interactive, 1 file</text>
@@ -177,26 +177,26 @@
 <path d="M450,213 C620,213 640,118 798,118" marker-end="url(#m21-ah)"></path>
 </g>
 </svg>
-<p class="text-xs text-neutral-500 text-center mt-1">The backbone of the SKILL.md â€” illustrative. Each section feeds into the final page.</p>
+<p class="text-xs text-neutral-500 text-center mt-1">The backbone of the SKILL.md ê¢â¬â illustrative. Each section feeds into the final page.</p>
 </div>
 </section>
 <h2 class="text-2xl font-bold mb-6">Detailed content</h2>
-<!-- TÃ“PICO 1 -->
+<!-- TêâPICO 1 -->
 <section class="mb-16" id="topico-1">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
-<h2 class="text-2xl font-bold">ðŸ—ºï¸ The Promise: "What This Skill Does"</h2>
+<h2 class="text-2xl font-bold">ê°Å¸âÂºê¯Â¸Â The Promise: "What This Skill Does"</h2>
 </div>
 <p class="text-neutral-300 mb-6 leading-relaxed">
-        The fileâ€™s first content section is a single paragraph, but itâ€™s the most important one. It <strong class="text-blue-400">defines the output concretely</strong>: "a self-contained, interactive HTML page with light/dark theme, animated flight routes, a day-by-day schedule, expandable flight cards, checklists that persist in localStorage, and multi-trip navigation". And it wraps up with the phrase that captures the whole philosophy: <em>"looks like a premium travel appâ€”not a document"</em>.
+        The fileê¢â¬â¢s first content section is a single paragraph, but itê¢â¬â¢s the most important one. It <strong class="text-blue-400">defines the output concretely</strong>: "a self-contained, interactive HTML page with light/dark theme, animated flight routes, a day-by-day schedule, expandable flight cards, checklists that persist in localStorage, and multi-trip navigation". And it wraps up with the phrase that captures the whole philosophy: <em>"looks like a premium travel appê¢â¬ânot a document"</em>.
       </p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ðŸŽ¯</span> The contract in one sentence</h3>
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸Å½Â¯</span> The contract in one sentence</h3>
 <p class="text-neutral-300 mb-4">Every mature skill starts by saying plainly what it will deliver. This paragraph is a three-level contract:</p>
 <ul class="space-y-2 text-neutral-300">
-<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">â€¢</span><span><strong>Output shape:</strong> one HTML file â€” not a PDF, not a text response.</span></li>
-<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">â€¢</span><span><strong>Features:</strong> the resource list becomes an implicit checklist that Claude tries to complete.</span></li>
-<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">â€¢</span><span><strong>Feel:</strong> "premium app, not document" is the quality bar.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">ê¢â¬Â¢</span><span><strong>Output shape:</strong> one HTML file ê¢â¬â not a PDF, not a text response.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">ê¢â¬Â¢</span><span><strong>Features:</strong> the resource list becomes an implicit checklist that Claude tries to complete.</span></li>
+<li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">ê¢â¬Â¢</span><span><strong>Feel:</strong> "premium app, not document" is the quality bar.</span></li>
 </ul>
 </div>
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
@@ -204,33 +204,33 @@
 <pre class="font-mono text-sm text-neutral-300 overflow-x-auto leading-relaxed">## What This Skill Does
 
 Generates a stunning, interactive HTML travel
-itinerary â€” a single self-contained file with
+itinerary ê¢â¬â a single self-contained file with
 dark/light theme toggle, animated flight paths,
 interactive day-by-day schedule, expandable
 flight cards ... and multi-trip navigation.
 
-The output looks like a premium travel app â€”
+The output looks like a premium travel app ê¢â¬â
 <span class="text-blue-400">not a document.</span></pre>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ðŸ’¡</span> Practical tip</h3>
-<p class="text-neutral-300">When writing your skill, force yourself to describe the output in <strong>one verifiable sentence</strong>. If you canâ€™t do it, Claude wonâ€™t be able to either. â€œGenerate something useful about travelâ€ is a bad prompt; â€œgenerate an interactive HTML with an itinerary, flights, and budgetâ€ is a target.</p>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê°Å¸âÂ¡</span> Practical tip</h3>
+<p class="text-neutral-300">When writing your skill, force yourself to describe the output in <strong>one verifiable sentence</strong>. If you canê¢â¬â¢t do it, Claude wonê¢â¬â¢t be able to either. ê¢â¬ÅGenerate something useful about travelê¢â¬Â is a bad prompt; ê¢â¬Ågenerate an interactive HTML with an itinerary, flights, and budgetê¢â¬Â is a target.</p>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Concrete</div><div class="text-xs text-neutral-400">The output has a name.</div></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Self-contained</div><div class="text-xs text-neutral-400">One file.</div></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Interactive</div><div class="text-xs text-neutral-400">Itâ€™s not a PDF.</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Interactive</div><div class="text-xs text-neutral-400">Itê¢â¬â¢s not a PDF.</div></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Scale</div><div class="text-xs text-neutral-400">"An app, not a doc."</div></div>
 </div>
 </section>
-<!-- TÃ“PICO 2 -->
+<!-- TêâPICO 2 -->
 <section class="mb-16" id="topico-2">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
-<h2 class="text-2xl font-bold">ðŸ’¬ The conversational Setup Flow</h2>
+<h2 class="text-2xl font-bold">ê°Å¸âÂ¬ The conversational Setup Flow</h2>
 </div>
 <p class="text-neutral-300 mb-6 leading-relaxed">
-        Hereâ€™s the heart of the skill, and it makes a point of stating: <strong class="text-blue-400">"Setup Flow â€” CRITICAL"</strong>. Before generating ANYTHING, Claude needs to go through a four-step conversational discovery process. Thatâ€™s why the output feels magical: itâ€™s built on real details from the userâ€™s life, not assumptions.
+        Hereê¢â¬â¢s the heart of the skill, and it makes a point of stating: <strong class="text-blue-400">"Setup Flow ê¢â¬â CRITICAL"</strong>. Before generating ANYTHING, Claude needs to go through a four-step conversational discovery process. Thatê¢â¬â¢s why the output feels magical: itê¢â¬â¢s built on real details from the userê¢â¬â¢s life, not assumptions.
       </p>
 <div class="space-y-6 mb-6">
 <div class="flex items-start space-x-4">
@@ -246,15 +246,15 @@ The output looks like a premium travel app â€”
 <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
 <h4 class="font-semibold text-white mb-2">Integration check</h4>
 <p class="text-sm text-neutral-400 mb-3">"ask every time"</p>
-<p class="text-neutral-300 text-sm">Offer to pull real data from email, calendar, Drive, messages, and URLs. We cover this in Topic 3 â€” itâ€™s what distinguishes an assistant from a text generator.</p>
+<p class="text-neutral-300 text-sm">Offer to pull real data from email, calendar, Drive, messages, and URLs. We cover this in Topic 3 ê¢â¬â itê¢â¬â¢s what distinguishes an assistant from a text generator.</p>
 </div>
 </div>
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center"><span class="text-blue-400 font-bold">3</span></div>
 <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
 <h4 class="font-semibold text-white mb-2">In-depth details (gaps)</h4>
-<p class="text-sm text-neutral-400 mb-3">Fill in whatâ€™s missing</p>
-<p class="text-neutral-300 text-sm">Based on what it has gathered so far, ask about flights, lodging, events, transportation, pets, budget, activities, and special requirementsâ€”only whatâ€™s still blank.</p>
+<p class="text-sm text-neutral-400 mb-3">Fill in whatê¢â¬â¢s missing</p>
+<p class="text-neutral-300 text-sm">Based on what it has gathered so far, ask about flights, lodging, events, transportation, pets, budget, activities, and special requirementsê¢â¬âonly whatê¢â¬â¢s still blank.</p>
 </div>
 </div>
 <div class="flex items-start space-x-4">
@@ -267,7 +267,7 @@ The output looks like a premium travel app â€”
 </div>
 </div>
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ðŸ“Š</span> Why â€œcollect before generatingâ€ works</h3>
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸âÅ </span> Why ê¢â¬Åcollect before generatingê¢â¬Â works</h3>
 <ul class="space-y-2 text-neutral-300">
 <li><strong>Specificity:</strong> real data produce a page that looks made for that trip, not a template.</li>
 <li><strong>Confidence:</strong> by confirming the summary, the user corrects errors before spending tokens generating the entire HTML.</li>
@@ -276,54 +276,54 @@ The output looks like a premium travel app â€”
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">4 steps</div><div class="text-xs text-neutral-400">Fixed sequence.</div></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">CRITICAL</div><div class="text-xs text-neutral-400">Itâ€™s not optional.</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">CRITICAL</div><div class="text-xs text-neutral-400">Itê¢â¬â¢s not optional.</div></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Confirm</div><div class="text-xs text-neutral-400">Gate before generating.</div></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Discovery</div><div class="text-xs text-neutral-400">Conversation &gt; assumption.</div></div>
 </div>
 </section>
-<!-- TÃ“PICO 3 -->
+<!-- TêâPICO 3 -->
 <section class="mb-16" id="topico-3">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
-<h2 class="text-2xl font-bold">ðŸ”Œ Integrations via MCP: Real Data</h2>
+<h2 class="text-2xl font-bold">ê°Å¸âÅ Integrations via MCP: Real Data</h2>
 </div>
 <p class="text-neutral-300 mb-6 leading-relaxed">
-        Step 2 of setup is where the skill gains superpowers. It instructs Claude to offerâ€”every timeâ€”to check the userâ€™s data sources: email, calendar, Drive/Docs, Slack/messages, URLs, and Notion. If the user authorizes it, Claude uses the <strong class="text-blue-400">corresponding MCP tools</strong> (Gmail, Google Calendar, Google Drive) to pull flight confirmations, reservations, and event tickets directly into the document.
+        Step 2 of setup is where the skill gains superpowers. It instructs Claude to offerê¢â¬âevery timeê¢â¬âto check the userê¢â¬â¢s data sources: email, calendar, Drive/Docs, Slack/messages, URLs, and Notion. If the user authorizes it, Claude uses the <strong class="text-blue-400">corresponding MCP tools</strong> (Gmail, Google Calendar, Google Drive) to pull flight confirmations, reservations, and event tickets directly into the document.
       </p>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
-<h4 class="font-bold text-emerald-400 mb-4">âœ“ What to DO</h4>
+<h4 class="font-bold text-emerald-400 mb-4">ê¢Åâ What to DO</h4>
 <ul class="space-y-3 text-neutral-300">
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Offer the integration and <strong>wait for authorization</strong> from the user.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Use the right MCP tool for each source (Gmail for email, Calendar for scheduling).</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Fill in the document with the actual data returned.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Return to the questions (Step 3) for what the integration didnâ€™t cover.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Offer the integration and <strong>wait for authorization</strong> from the user.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Use the right MCP tool for each source (Gmail for email, Calendar for scheduling).</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Fill in the document with the actual data returned.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Return to the questions (Step 3) for what the integration didnê¢â¬â¢t cover.</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-<h4 class="font-bold text-red-400 mb-4">âœ— What NOT to do</h4>
+<h4 class="font-bold text-red-400 mb-4">ê¢Åâ What NOT to do</h4>
 <ul class="space-y-3 text-neutral-300">
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Access email or calendar <strong>without asking</strong>.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Make up flight numbers or reservations when thereâ€™s no data.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Skip the offer because "it must be a lot of work" â€” the skill says "ask every time".</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Mix placeholder data with real data without labeling it.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Access email or calendar <strong>without asking</strong>.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Make up flight numbers or reservations when thereê¢â¬â¢s no data.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Skip the offer because "it must be a lot of work" ê¢â¬â the skill says "ask every time".</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Mix placeholder data with real data without labeling it.</span></li>
 </ul>
 </div>
 </div>
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
 <h3 class="text-sm font-semibold text-neutral-400 mb-3 uppercase tracking-wide">The sources the skill offers to check</h3>
 <div class="grid grid-cols-2 md:grid-cols-3 gap-3 font-mono text-sm">
-<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ðŸ“§ Email</div>
-<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ðŸ“… Schedule</div>
-<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ðŸ“„ Drive / Docs</div>
-<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ðŸ’¬ Slack / Messages</div>
-<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ðŸ”— URLs</div>
-<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ðŸ“‹ Notion</div>
+<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ê°Å¸âÂ§ Email</div>
+<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ê°Å¸ââ¦ Schedule</div>
+<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ê°Å¸ââ Drive / Docs</div>
+<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ê°Å¸âÂ¬ Slack / Messages</div>
+<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ê°Å¸ââ URLs</div>
+<div class="bg-dark-700/60 rounded-lg p-3 text-neutral-300">ê°Å¸ââ¹ Notion</div>
 </div>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ðŸ’¡</span> Practical tip</h3>
-<p class="text-neutral-300">The skillâ€™s description, <em>"I can pull in real data to make this way more useful"</em>, is a copywriting template. It explains the benefit before asking for permissionâ€”the user understands why and is more likely to say yes. Copy this pattern in your skills with integrations.</p>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê°Å¸âÂ¡</span> Practical tip</h3>
+<p class="text-neutral-300">The skillê¢â¬â¢s description, <em>"I can pull in real data to make this way more useful"</em>, is a copywriting template. It explains the benefit before asking for permissionê¢â¬âthe user understands why and is more likely to say yes. Copy this pattern in your skills with integrations.</p>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">MCP</div><div class="text-xs text-neutral-400">External tools.</div></div>
@@ -332,11 +332,11 @@ The output looks like a premium travel app â€”
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Fallback</div><div class="text-xs text-neutral-400">Ask about the rest.</div></div>
 </div>
 </section>
-<!-- TÃ“PICO 4 -->
+<!-- TêâPICO 4 -->
 <section class="mb-16" id="topico-4">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
-<h2 class="text-2xl font-bold">ðŸ“¦ Output Format: One File, Zero Dependencies</h2>
+<h2 class="text-2xl font-bold">ê°Å¸âÂ¦ Output Format: One File, Zero Dependencies</h2>
 </div>
 <p class="text-neutral-300 mb-6 leading-relaxed">
         Very short, but decisive. The "Output Format" section locks in the output with explicit rules: <strong class="text-blue-400">a single self-contained HTML file</strong>, with all the CSS in a <code class="font-mono text-blue-400">&lt;style&gt;</code> and all the JS in one <code class="font-mono text-blue-400">&lt;script&gt;</code>; images as base64 data URIs or emoji; no external dependencies beyond Google Fonts (Inter); and a standardized file name.
@@ -354,7 +354,7 @@ Google Fonts (Inter).
 Save as <span class="text-blue-400">travelwings-{destination}.html</span></pre>
 </div>
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ðŸ“Š</span> What each restriction prevents</h3>
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸âÅ </span> What each restriction prevents</h3>
 <ul class="space-y-2 text-neutral-300">
 <li><strong>"Single file":</strong> avoids scattered files that the user has to gather.</li>
 <li><strong>"Inline CSS/JS":</strong> avoids links to stylesheets/scripts that break when the file is moved.</li>
@@ -363,8 +363,8 @@ Save as <span class="text-blue-400">travelwings-{destination}.html</span></pre>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-red-400 mb-3 flex items-center"><span class="mr-2">âš ï¸</span> Attention</h3>
-<p class="text-neutral-300">Without an Output Format section, Claude tends to â€œoverhelpâ€ â€” proposing a project with multiple folders, a framework, and a build. For a skill that generates an artifact for the end user, thatâ€™s the opposite of what you want. <strong>Designing means setting constraints.</strong></p>
+<h3 class="text-lg font-semibold text-red-400 mb-3 flex items-center"><span class="mr-2">ê¢Å¡Â ê¯Â¸Â</span> Attention</h3>
+<p class="text-neutral-300">Without an Output Format section, Claude tends to ê¢â¬Åoverhelpê¢â¬Â ê¢â¬â proposing a project with multiple folders, a framework, and a build. For a skill that generates an artifact for the end user, thatê¢â¬â¢s the opposite of what you want. <strong>Designing means setting constraints.</strong></p>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">1 file</div><div class="text-xs text-neutral-400">Portable.</div></div>
@@ -373,72 +373,72 @@ Save as <span class="text-blue-400">travelwings-{destination}.html</span></pre>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Fixed name</div><div class="text-xs text-neutral-400">Clear convention.</div></div>
 </div>
 </section>
-<!-- TÃ“PICO 5 -->
+<!-- TêâPICO 5 -->
 <section class="mb-16" id="topico-5">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
-<h2 class="text-2xl font-bold">ðŸ§© Example Sections: the page blueprint</h2>
+<h2 class="text-2xl font-bold">ê°Å¸Â§Â© Example Sections: the page blueprint</h2>
 </div>
 <p class="text-neutral-300 mb-6 leading-relaxed">
-        This section lists 13 suggested blocks for the page â€” hero, event banner, stats, route map, outbound flights, hotel, pets, day-by-day itinerary, return flights, budget, checklists, footer, and theme. But the detail that matters is in parentheses: <strong class="text-blue-400">"adapt per trip"</strong>. Itâ€™s a blueprint, not a straitjacket.
+        This section lists 13 suggested blocks for the page ê¢â¬â hero, event banner, stats, route map, outbound flights, hotel, pets, day-by-day itinerary, return flights, budget, checklists, footer, and theme. But the detail that matters is in parentheses: <strong class="text-blue-400">"adapt per trip"</strong>. Itê¢â¬â¢s a blueprint, not a straitjacket.
       </p>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
-<h4 class="font-bold text-emerald-400 mb-4">âœ“ How the list helps</h4>
+<h4 class="font-bold text-emerald-400 mb-4">ê¢Åâ How the list helps</h4>
 <ul class="space-y-3 text-neutral-300">
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Gives Claude a <strong>reference order</strong> of the blocks.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Remember easy-to-forget sections (footer, checklists).</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Mark which ones are conditional ("if attending an event", "if applicable").</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Gives Claude a <strong>reference order</strong> of the blocks.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Remember easy-to-forget sections (footer, checklists).</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Mark which ones are conditional ("if attending an event", "if applicable").</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-<h4 class="font-bold text-red-400 mb-4">âœ— What to avoid</h4>
+<h4 class="font-bold text-red-400 mb-4">ê¢Åâ What to avoid</h4>
 <ul class="space-y-3 text-neutral-300">
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Dump <strong>everyone</strong> the 13 blocks even without data for them.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Create a pet section for a trip without pets.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Treat the suggested order as mandatory and fixed.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Dump <strong>everyone</strong> the 13 blocks even without data for them.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Create a pet section for a trip without pets.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Treat the suggested order as mandatory and fixed.</span></li>
 </ul>
 </div>
 </div>
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
 <h3 class="text-sm font-semibold text-neutral-400 mb-3 uppercase tracking-wide">The 13 suggested blocks (adapt per trip)</h3>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-sm text-neutral-300">
-<div class="bg-dark-700/60 rounded p-2">1 Â· Hero + animated airplane</div>
-<div class="bg-dark-700/60 rounded p-2">2 Â· Event banner</div>
-<div class="bg-dark-700/60 rounded p-2">3 Â· Stats bar</div>
-<div class="bg-dark-700/60 rounded p-2">4 Â· Route map (SVG)</div>
-<div class="bg-dark-700/60 rounded p-2">5 Â· Outbound flights</div>
-<div class="bg-dark-700/60 rounded p-2">6 Â· Hotel</div>
-<div class="bg-dark-700/60 rounded p-2">7 Â· Pet care (if applicable)</div>
-<div class="bg-dark-700/60 rounded p-2">8 Â· Day-by-day schedule</div>
-<div class="bg-dark-700/60 rounded p-2">9 Â· Return flights</div>
-<div class="bg-dark-700/60 rounded p-2">10 Â· Budget</div>
-<div class="bg-dark-700/60 rounded p-2">11 Â· Checklists</div>
-<div class="bg-dark-700/60 rounded p-2">12 Â· Footer / navigation</div>
+<div class="bg-dark-700/60 rounded p-2">1 êÂ· Hero + animated airplane</div>
+<div class="bg-dark-700/60 rounded p-2">2 êÂ· Event banner</div>
+<div class="bg-dark-700/60 rounded p-2">3 êÂ· Stats bar</div>
+<div class="bg-dark-700/60 rounded p-2">4 êÂ· Route map (SVG)</div>
+<div class="bg-dark-700/60 rounded p-2">5 êÂ· Outbound flights</div>
+<div class="bg-dark-700/60 rounded p-2">6 êÂ· Hotel</div>
+<div class="bg-dark-700/60 rounded p-2">7 êÂ· Pet care (if applicable)</div>
+<div class="bg-dark-700/60 rounded p-2">8 êÂ· Day-by-day schedule</div>
+<div class="bg-dark-700/60 rounded p-2">9 êÂ· Return flights</div>
+<div class="bg-dark-700/60 rounded p-2">10 êÂ· Budget</div>
+<div class="bg-dark-700/60 rounded p-2">11 êÂ· Checklists</div>
+<div class="bg-dark-700/60 rounded p-2">12 êÂ· Footer / navigation</div>
 </div>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ðŸ’¡</span> Practical tip</h3>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê°Å¸âÂ¡</span> Practical tip</h3>
 <p class="text-neutral-300">"Adapt per trip" is one of the two most powerful words in a generation skill. Whenever you list blocks, mark which one is <strong>conditional</strong>. This gives you structure without producing bloated pages with empty sections.</p>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Blueprint</div><div class="text-xs text-neutral-400">Not a straitjacket.</div></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Conditional</div><div class="text-xs text-neutral-400">"if applicable".</div></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Order</div><div class="text-xs text-neutral-400">Reference, not law.</div></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Reminder</div><div class="text-xs text-neutral-400">Donâ€™t forget blocks.</div></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Reminder</div><div class="text-xs text-neutral-400">Donê¢â¬â¢t forget blocks.</div></div>
 </div>
 </section>
-<!-- TÃ“PICO 6 -->
+<!-- TêâPICO 6 -->
 <section class="mb-16" id="topico-6">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
-<h2 class="text-2xl font-bold">â­ Key Principles: the compass</h2>
+<h2 class="text-2xl font-bold">ê¢Â­Â Key Principles: the compass</h2>
 </div>
 <p class="text-neutral-300 mb-6 leading-relaxed">
-        The final section is six short principles that sum up the spirit of the skill. While the steps explain <em>what to do</em>, the principles say <em>how to decide</em> when the situation wasnâ€™t in the script. Theyâ€™re Claudeâ€™s rule of thumb.
+        The final section is six short principles that sum up the spirit of the skill. While the steps explain <em>what to do</em>, the principles say <em>how to decide</em> when the situation wasnê¢â¬â¢t in the script. Theyê¢â¬â¢re Claudeê¢â¬â¢s rule of thumb.
       </p>
 <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ðŸ§­</span> The six principles</h3>
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸Â§Â­</span> The six principles</h3>
 <ul class="space-y-2 text-neutral-300">
 <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">1.</span><span><strong>Real data &gt; placeholder data.</strong> Always try to pull from real data first.</span></li>
 <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">2.</span><span><strong>Ask before assuming.</strong> The setup conversation is what gives it value.</span></li>
@@ -449,16 +449,16 @@ Save as <span class="text-blue-400">travelwings-{destination}.html</span></pre>
 </ul>
 </div>
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ðŸ“Š</span> Steps vs. Principles</h3>
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸âÅ </span> Steps vs. Principles</h3>
 <ul class="space-y-2 text-neutral-300">
 <li><strong>Steps</strong> cover the happy path: do A, then B, then C.</li>
-<li><strong>Principles</strong> cover the unexpected cases: what if data is missing? What if thereâ€™s a conflict? Decide using the rubric.</li>
-<li>Together, they make the skill <strong>robust</strong> â€” works even outside the expected workflow.</li>
+<li><strong>Principles</strong> cover the unexpected cases: what if data is missing? What if thereê¢â¬â¢s a conflict? Decide using the rubric.</li>
+<li>Together, they make the skill <strong>robust</strong> ê¢â¬â works even outside the expected workflow.</li>
 </ul>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ðŸ’¡</span> Practical tip</h3>
-<p class="text-neutral-300">Good principles are <strong>short and opposable</strong>: each one rules out a concrete alternative ("real &gt; placeholder" rules out making up data). If one of your principles rules nothing out, it's just decoration â€” rewrite it.</p>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê°Å¸âÂ¡</span> Practical tip</h3>
+<p class="text-neutral-300">Good principles are <strong>short and opposable</strong>: each one rules out a concrete alternative ("real &gt; placeholder" rules out making up data). If one of your principles rules nothing out, it's just decoration ê¢â¬â rewrite it.</p>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">6 rules</div><div class="text-xs text-neutral-400">Short and clear.</div></div>
@@ -467,10 +467,10 @@ Save as <span class="text-blue-400">travelwings-{destination}.html</span></pre>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-blue-400 font-bold mb-1">Robustness</div><div class="text-xs text-neutral-400">Off script.</div></div>
 </div>
 </section>
-<!-- EXERCÃCIOS -->
+<!-- EXERCêÂCIOS -->
 <section class="mb-16">
 <div class="flex items-center space-x-4 mb-6">
-<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">âœŽ</span>
+<span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">ê¢ÅÅ½</span>
 <h2 class="text-2xl font-bold">Hands-on exercises</h2>
 </div>
 <div class="space-y-4 mb-6">
@@ -503,7 +503,7 @@ plan: 7 day cards, a shopping list grouped by aisle,
 a budget total, and a print button. Looks like an
 app, not a document.
 
-## Setup Flow â€” CRITICAL
+## Setup Flow ê¢â¬â CRITICAL
 Before generating, ask:
 1. How many people, and any diets/allergies?
 2. Budget for the week?
@@ -528,28 +528,28 @@ Save as menu-{week}.html.
 <!-- RESUMO -->
 <section class="mb-12">
 <div class="bg-gradient-to-br from-blue-900/40 via-dark-800 to-dark-800 rounded-xl border border-blue-500/30 p-8">
-<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">ðŸŽ¯</span> Module Summary</h2>
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">ê°Å¸Å½Â¯</span> Module Summary</h2>
 <div class="space-y-4 mb-8">
-<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">âœ“</span><div><strong class="text-white">The promise defines the output</strong><span class="text-neutral-400"> â€” a verifiable sentence is the skillâ€™s contract.</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">âœ“</span><div><strong class="text-white">Setup flow is the heart of it</strong><span class="text-neutral-400"> â€” collect in 4 steps before generating, marked as CRITICAL.</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">âœ“</span><div><strong class="text-white">Integrations via MCP</strong><span class="text-neutral-400"> â€” real data &gt; placeholder, always with permission.</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">âœ“</span><div><strong class="text-white">Output Format restricts</strong><span class="text-neutral-400"> â€” one file, zero dependencies; restricting is by design.</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">âœ“</span><div><strong class="text-white">Example Sections + Principles</strong><span class="text-neutral-400"> â€” an adaptable blueprint and a compass for the unexpected.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">ê¢Åâ</span><div><strong class="text-white">The promise defines the output</strong><span class="text-neutral-400"> ê¢â¬â a verifiable sentence is the skillê¢â¬â¢s contract.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">ê¢Åâ</span><div><strong class="text-white">Setup flow is the heart of it</strong><span class="text-neutral-400"> ê¢â¬â collect in 4 steps before generating, marked as CRITICAL.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">ê¢Åâ</span><div><strong class="text-white">Integrations via MCP</strong><span class="text-neutral-400"> ê¢â¬â real data &gt; placeholder, always with permission.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">ê¢Åâ</span><div><strong class="text-white">Output Format restricts</strong><span class="text-neutral-400"> ê¢â¬â one file, zero dependencies; restricting is by design.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">ê¢Åâ</span><div><strong class="text-white">Example Sections + Principles</strong><span class="text-neutral-400"> ê¢â¬â an adaptable blueprint and a compass for the unexpected.</span></div></div>
 </div>
 <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
 <h3 class="font-semibold text-blue-400 mb-2">Next Module:</h3>
-<p class="text-neutral-300">2.2 â€” Setup flow, design system, and output: from prompt to HTML page</p>
+<p class="text-neutral-300">2.2 ê¢â¬â Setup flow, design system, and output: from prompt to HTML page</p>
 </div>
 <div class="flex flex-col sm:flex-row gap-4">
-<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">â† Back to Track</a>
-<a class="flex-1 text-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-500 transition-colors" href="modulo-2-2.html">Next Module â†’</a>
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">ê¢â Â Back to Track</a>
+<a class="flex-1 text-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-500 transition-colors" href="modulo-2-2.html">Next Module ê¢â â</a>
 </div>
 </div>
 </section>
 </main>
 <footer class="border-t border-dark-600 py-8 mt-8">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p class="mb-2">âš¡ Claude Skills in Practice â€” 2026 Â· <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a></p>
+<p class="mb-2">ê¢Å¡Â¡ Claude Skills in Practice ê¢â¬â 2026 êÂ· <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHê AI" target="_blank">ARCKHê AI</a></p>
 <p>Educational content about Claude Code Agent Skills.</p>
 </div>
 </footer>

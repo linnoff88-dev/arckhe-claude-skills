@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>MÃ³dulo 4.1 Â· n8n Workflow Reviewer | Claude Skills na PrÃ¡tica</title>
+<title>MêÂ³dulo 4.1 êÂ· n8n Workflow Reviewer | Claude Skills na PrêÂ¡tica</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = {
@@ -33,7 +33,7 @@
     html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
     html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
 
-    /* Light mode - cores de acento (amber â†’ amber-800) */
+    /* Light mode - cores de acento (amber ê¢â â amber-800) */
     html:not(.dark) .text-amber-400 { color: #92400e; }
     html:not(.dark) .bg-amber-500\/20 { background-color: rgba(217,119,6,0.12); }
     html:not(.dark) .bg-amber-500\/10 { background-color: rgba(217,119,6,0.08); }
@@ -51,7 +51,7 @@
     html:not(.dark) .hover\:bg-purple-500\/10:hover { background-color: rgba(124,58,237,0.08); }
     html:not(.dark) .hover\:bg-teal-500\/10:hover { background-color: rgba(13,148,136,0.08); }
     html:not(.dark) .hover\:bg-rose-500\/10:hover { background-color: rgba(225,29,72,0.08); }
-    /* outras cores de box usadas no conteÃºdo */
+    /* outras cores de box usadas no conteêÂºdo */
     html:not(.dark) .text-blue-400 { color: #2563eb; }
     html:not(.dark) .text-emerald-400 { color: #059669; }
     html:not(.dark) .text-red-400 { color: #dc2626; }
@@ -75,7 +75,7 @@
     .dark .border-dark-600 { border-color: #374151; }
     .dark .divide-dark-600 > :not([hidden]) ~ :not([hidden]) { border-color: #374151; }
 
-    /* AnimaÃ§Ã£o dos diagramas */
+    /* AnimaêÂ§êÂ£o dos diagramas */
     @keyframes wf-pulse { 0%,100% { opacity:.55 } 50% { opacity:1 } }
     @media (prefers-reduced-motion: no-preference) {
       .wf-a { animation: wf-pulse 2.6s ease-in-out infinite; }
@@ -84,26 +84,26 @@
     }
   </style>
 <link href="https://linnoff88-dev.github.io/ hreflang="pt-BR" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="en" rel="alternate"/><link href="https://linnoff88-dev.github.io/ hreflang="es" rel="alternate"/></head>
-<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="ARCKHÉ-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="modulo-4-1.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha4/modulo-4-1.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha4/modulo-4-1.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="ARCKHê-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="modulo-4-1.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha4/modulo-4-1.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha4/modulo-4-1.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
 <!-- NAV -->
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-14">
 <div class="flex items-center space-x-4">
 <a class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300" href="../../index.html">
-<span class="text-2xl">âš¡</span>
+<span class="text-2xl">ê¢Å¡Â¡</span>
 <span class="font-bold text-lg hidden sm:inline">Claude Skills</span>
 </a>
 <span class="text-neutral-600 hidden sm:inline">|</span>
-<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://ARCKHê AI" target="_blank">ARCKHê AI</a>
 </div>
 <div class="flex items-center space-x-1 sm:space-x-2">
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors" href="../trilha2/index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Primeira Skill</span></a>
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Frontend</span></a>
-<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-amber-400 bg-amber-500/10" href="index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">AutomaÃ§Ã£o</span></a>
+<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-amber-400 bg-amber-500/10" href="index.html"><span class="sm:hidden">T4</span><span class="hidden sm:inline">AutomaêÂ§êÂ£o</span></a>
 <a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors" href="../trilha5/index.html"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Consultoria</span></a>
-<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">AvanÃ§ado</span></a>
+<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors" href="../trilha6/index.html"><span class="sm:hidden">T6</span><span class="hidden sm:inline">AvanêÂ§ado</span></a>
 <button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
@@ -115,38 +115,38 @@
 <!-- BREADCRUMB -->
 <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 <div class="flex items-center space-x-2 text-sm text-neutral-400">
-<a class="hover:text-amber-400" href="../../index.html">InÃ­cio</a>
+<a class="hover:text-amber-400" href="../../index.html">InêÂ­cio</a>
 <span>/</span>
 <a class="hover:text-amber-400" href="index.html">Trilha 4</a>
 <span>/</span>
-<span class="text-amber-400">MÃ³dulo 4.1</span>
+<span class="text-amber-400">MêÂ³dulo 4.1</span>
 </div>
 </nav>
 <!-- HEADER -->
 <header class="bg-gradient-to-br from-amber-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">MÃ“DULO 4.1</span>
-<h1 class="text-3xl sm:text-4xl font-bold mb-4">ðŸ” n8n Workflow Reviewer</h1>
-<p class="text-lg text-neutral-400 max-w-3xl">VocÃª constrÃ³i automaÃ§Ãµes. Esta skill faz Claude revisÃ¡-las como um engenheiro sÃªnior: cola o JSON do workflow, descreve o setup ou manda um print do canvas â€” e recebe uma auditoria estruturada em cinco categorias, com cada achado nomeado e uma lista de correÃ§Ãµes priorizada.</p>
+<span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">MêâDULO 4.1</span>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4">ê°Å¸âÂ n8n Workflow Reviewer</h1>
+<p class="text-lg text-neutral-400 max-w-3xl">VocêÂª constrêÂ³i automaêÂ§êÂµes. Esta skill faz Claude revisêÂ¡-las como um engenheiro sêÂªnior: cola o JSON do workflow, descreve o setup ou manda um print do canvas ê¢â¬â e recebe uma auditoria estruturada em cinco categorias, com cada achado nomeado e uma lista de correêÂ§êÂµes priorizada.</p>
 <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 max-w-2xl">
-<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">6</div><div class="text-xs text-neutral-400">TÃ³picos</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">6</div><div class="text-xs text-neutral-400">TêÂ³picos</div></div>
 <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">50</div><div class="text-xs text-neutral-400">Minutos</div></div>
-<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Inter.</div><div class="text-xs text-neutral-400">NÃ­vel</div></div>
-<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">PrÃ¡tica</div><div class="text-xs text-neutral-400">Tipo</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Inter.</div><div class="text-xs text-neutral-400">NêÂ­vel</div></div>
+<div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">PrêÂ¡tica</div><div class="text-xs text-neutral-400">Tipo</div></div>
 </div>
 </div>
 </header>
 <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-<!-- TÃ“PICO 1 -->
+<!-- TêâPICO 1 -->
 <section class="mb-16" id="topico-1">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">1</span>
-<h2 class="text-2xl font-bold">ðŸ§­ O code review aplicado a automaÃ§Ãµes</h2>
+<h2 class="text-2xl font-bold">ê°Å¸Â§Â­ O code review aplicado a automaêÂ§êÂµes</h2>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed">Um workflow de automaÃ§Ã£o nÃ£o Ã© "sÃ³ uns blocos ligados". Ã‰ <strong class="text-amber-400">cÃ³digo visual</strong>: tem lÃ³gica, dependÃªncias, pontos de falha e dÃ­vida tÃ©cnica. E como cÃ³digo, ele apodrece em silÃªncio. A ideia central desta skill Ã© simples e poderosa: tratar um workflow n8n exatamente como vocÃª trataria um pull request â€” com um arquiteto sÃªnior fazendo a auditoria que ninguÃ©m parou pra fazer.</p>
+<p class="text-neutral-300 mb-6 leading-relaxed">Um workflow de automaêÂ§êÂ£o nêÂ£o êÂ© "sêÂ³ uns blocos ligados". êâ° <strong class="text-amber-400">cêÂ³digo visual</strong>: tem lêÂ³gica, dependêÂªncias, pontos de falha e dêÂ­vida têÂ©cnica. E como cêÂ³digo, ele apodrece em silêÂªncio. A ideia central desta skill êÂ© simples e poderosa: tratar um workflow n8n exatamente como vocêÂª trataria um pull request ê¢â¬â com um arquiteto sêÂªnior fazendo a auditoria que ninguêÂ©m parou pra fazer.</p>
 <!-- SVG: erros silenciosos viram achados -->
 <div class="rounded-2xl border border-amber-500/30 bg-dark-900/40 p-3 sm:p-4 mb-6 overflow-hidden">
-<svg aria-label="Um workflow com erros invisÃ­veis passa pelo reviewer e sai como uma lista de cinco categorias de achados nomeados" class="w-full h-auto" role="img" viewbox="0 0 1000 220">
+<svg aria-label="Um workflow com erros invisêÂ­veis passa pelo reviewer e sai como uma lista de cinco categorias de achados nomeados" class="w-full h-auto" role="img" viewbox="0 0 1000 220">
 <defs>
 <lineargradient id="m41a-grad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fbbf24"></stop><stop offset="1" stop-color="#f59e0b"></stop></lineargradient>
 <filter height="180%" id="m41a-glow" width="180%" x="-40%" y="-40%"><fegaussianblur result="b" stddeviation="1.8"></fegaussianblur><femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter>
@@ -162,210 +162,210 @@
 <circle cx="118" cy="76" fill="#2a0f16" r="9" stroke="#fb7185" stroke-width="2"></circle><text fill="#fb7185" font-size="11" text-anchor="middle" x="118" y="80">!</text>
 <circle cx="118" cy="148" fill="#2a0f16" r="9" stroke="#fb7185" stroke-width="2"></circle><text fill="#fb7185" font-size="11" text-anchor="middle" x="118" y="152">!</text>
 </g>
-<text fill="#9ca3af" font-family="Inter,sans-serif" font-size="11" text-anchor="middle" x="76" y="180">erros invisÃ­veis</text>
+<text fill="#9ca3af" font-family="Inter,sans-serif" font-size="11" text-anchor="middle" x="76" y="180">erros invisêÂ­veis</text>
 <path d="M160,110 L300,110" fill="none" marker-end="url(#m41a-ah)" opacity="0.65" stroke="#fbbf24" stroke-width="2"></path>
 <!-- reviewer -->
 <g filter="url(#m41a-glow)"><rect fill="#1f1604" height="72" rx="14" stroke="url(#m41a-grad)" stroke-width="2.5" width="170" x="310" y="74"></rect></g>
 <text fill="#fbbf24" font-family="Inter,sans-serif" font-size="18" font-weight="600" text-anchor="middle" x="395" y="106">Reviewer</text>
-<text fill="#fcd9a0" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="395" y="126">engenheiro sÃªnior</text>
+<text fill="#fcd9a0" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" x="395" y="126">engenheiro sêÂªnior</text>
 <path d="M490,110 L560,110" fill="none" marker-end="url(#m41a-ah)" opacity="0.65" stroke="#fbbf24" stroke-width="2"></path>
-<!-- saÃ­da: 5 categorias -->
+<!-- saêÂ­da: 5 categorias -->
 <g font-family="Inter,sans-serif" font-size="12.5" font-weight="600">
-<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="20"></rect><text fill="#bfe6ff" x="588" y="40">ðŸ”´ Erros que quebram</text>
-<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="58"></rect><text fill="#bfe6ff" x="588" y="78">ðŸŸ¡ Falha silenciosa</text>
-<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="96"></rect><text fill="#bfe6ff" x="588" y="116">ðŸ”µ Performance &amp; custo</text>
-<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="134"></rect><text fill="#bfe6ff" x="588" y="154">ðŸŸ¢ Manutenibilidade</text>
-<rect fill="#1f1604" height="30" rx="8" stroke="#fbbf24" stroke-width="1.8" width="398" x="572" y="172"></rect><text fill="#fcd9a0" x="588" y="192">âœ… Lista de prioridades + nota</text>
+<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="20"></rect><text fill="#bfe6ff" x="588" y="40">ê°Å¸âÂ´ Erros que quebram</text>
+<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="58"></rect><text fill="#bfe6ff" x="588" y="78">ê°Å¸Å¸Â¡ Falha silenciosa</text>
+<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="96"></rect><text fill="#bfe6ff" x="588" y="116">ê°Å¸âÂµ Performance &amp; custo</text>
+<rect fill="#0e1b26" height="30" rx="8" stroke="#38bdf8" stroke-width="1.6" width="398" x="572" y="134"></rect><text fill="#bfe6ff" x="588" y="154">ê°Å¸Å¸Â¢ Manutenibilidade</text>
+<rect fill="#1f1604" height="30" rx="8" stroke="#fbbf24" stroke-width="1.8" width="398" x="572" y="172"></rect><text fill="#fcd9a0" x="588" y="192">ê¢Åâ¦ Lista de prioridades + nota</text>
 </g>
 </svg>
 </div>
 <div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-amber-400 mb-4 flex items-center"><span class="mr-2">ðŸŽ¯</span> A promessa em uma frase</h3>
-<p class="text-neutral-300 mb-2">"VocÃª constrÃ³i automaÃ§Ãµes. Claude as revisa como um engenheiro sÃªnior." O valor nÃ£o estÃ¡ em achar erros bonitinhos â€” estÃ¡ em transformar uma caixa-preta que "Ã s vezes funciona" num diagnÃ³stico que diz <strong class="text-neutral-100">exatamente</strong> o que vai quebrar, onde, e como consertar.</p>
+<h3 class="text-lg font-semibold text-amber-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸Å½Â¯</span> A promessa em uma frase</h3>
+<p class="text-neutral-300 mb-2">"VocêÂª constrêÂ³i automaêÂ§êÂµes. Claude as revisa como um engenheiro sêÂªnior." O valor nêÂ£o estêÂ¡ em achar erros bonitinhos ê¢â¬â estêÂ¡ em transformar uma caixa-preta que "êÂ s vezes funciona" num diagnêÂ³stico que diz <strong class="text-neutral-100">exatamente</strong> o que vai quebrar, onde, e como consertar.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Auditoria estruturada</div><p class="text-xs text-neutral-400">Cinco categorias fixas, na mesma ordem, toda vez.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Achado acionÃ¡vel</div><p class="text-xs text-neutral-400">Cada item tem o fix concreto, nÃ£o conselho vago.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Persona sÃªnior</div><p class="text-xs text-neutral-400">Tom de quem jÃ¡ viu isso quebrar em produÃ§Ã£o.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Sem enrolaÃ§Ã£o</div><p class="text-xs text-neutral-400">"Isso vai quebrar" &gt; "talvez considere...".</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Achado acionêÂ¡vel</div><p class="text-xs text-neutral-400">Cada item tem o fix concreto, nêÂ£o conselho vago.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Persona sêÂªnior</div><p class="text-xs text-neutral-400">Tom de quem jêÂ¡ viu isso quebrar em produêÂ§êÂ£o.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Sem enrolaêÂ§êÂ£o</div><p class="text-xs text-neutral-400">"Isso vai quebrar" &gt; "talvez considere...".</p></div>
 </div>
 </section>
-<!-- TÃ“PICO 2 -->
+<!-- TêâPICO 2 -->
 <section class="mb-16" id="topico-2">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">2</span>
-<h2 class="text-2xl font-bold">ðŸ“¥ Cinco formas de entrada</h2>
+<h2 class="text-2xl font-bold">ê°Å¸âÂ¥ Cinco formas de entrada</h2>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed">Uma skill sÃ³ Ã© usada de verdade se aceita o material que a pessoa tem <em>agora</em> â€” nÃ£o o material idealizado. O reviewer foi desenhado para engolir entrada imperfeita e ser honesto sobre o que cada formato permite (ou nÃ£o) avaliar.</p>
+<p class="text-neutral-300 mb-6 leading-relaxed">Uma skill sêÂ³ êÂ© usada de verdade se aceita o material que a pessoa tem <em>agora</em> ê¢â¬â nêÂ£o o material idealizado. O reviewer foi desenhado para engolir entrada imperfeita e ser honesto sobre o que cada formato permite (ou nêÂ£o) avaliar.</p>
 <div class="bg-dark-800 rounded-xl border border-dark-600 overflow-hidden mb-6">
 <table class="w-full text-sm">
-<thead class="bg-dark-700/50 text-neutral-300"><tr><th class="text-left font-semibold px-4 py-3">Formato de entrada</th><th class="text-left font-semibold px-4 py-3">O que dÃ¡ pra avaliar</th></tr></thead>
+<thead class="bg-dark-700/50 text-neutral-300"><tr><th class="text-left font-semibold px-4 py-3">Formato de entrada</th><th class="text-left font-semibold px-4 py-3">O que dêÂ¡ pra avaliar</th></tr></thead>
 <tbody class="divide-y divide-dark-600 text-neutral-300">
-<tr><td class="px-4 py-3 font-medium text-amber-400">JSON completo</td><td class="px-4 py-3">Tudo: expressÃµes, credenciais, parÃ¢metros, conexÃµes. A auditoria mais profunda.</td></tr>
-<tr><td class="px-4 py-3 font-medium text-amber-400">JSON parcial</td><td class="px-4 py-3">O subconjunto de nodes enviado; sinaliza o que nÃ£o dÃ¡ pra inferir do resto.</td></tr>
-<tr><td class="px-4 py-3 font-medium text-amber-400">Texto puro</td><td class="px-4 py-3">ReconstrÃ³i a estrutura assumida, declara as suposiÃ§Ãµes e revisa em cima delas.</td></tr>
-<tr><td class="px-4 py-3 font-medium text-amber-400">Mensagem de erro</td><td class="px-4 py-3">Modo debug: pede node, texto completo do erro e config; entÃ£o diagnostica.</td></tr>
-<tr><td class="px-4 py-3 font-medium text-amber-400">Screenshot</td><td class="px-4 py-3">LÃª nodes, tipos e conexÃµes visÃ­veis; declara o que sÃ³ o JSON revelaria.</td></tr>
+<tr><td class="px-4 py-3 font-medium text-amber-400">JSON completo</td><td class="px-4 py-3">Tudo: expressêÂµes, credenciais, parêÂ¢metros, conexêÂµes. A auditoria mais profunda.</td></tr>
+<tr><td class="px-4 py-3 font-medium text-amber-400">JSON parcial</td><td class="px-4 py-3">O subconjunto de nodes enviado; sinaliza o que nêÂ£o dêÂ¡ pra inferir do resto.</td></tr>
+<tr><td class="px-4 py-3 font-medium text-amber-400">Texto puro</td><td class="px-4 py-3">ReconstrêÂ³i a estrutura assumida, declara as suposiêÂ§êÂµes e revisa em cima delas.</td></tr>
+<tr><td class="px-4 py-3 font-medium text-amber-400">Mensagem de erro</td><td class="px-4 py-3">Modo debug: pede node, texto completo do erro e config; entêÂ£o diagnostica.</td></tr>
+<tr><td class="px-4 py-3 font-medium text-amber-400">Screenshot</td><td class="px-4 py-3">LêÂª nodes, tipos e conexêÂµes visêÂ­veis; declara o que sêÂ³ o JSON revelaria.</td></tr>
 </tbody>
 </table>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ðŸ’¡</span> Dica de design: degradaÃ§Ã£o honesta</h3>
-<p class="text-neutral-300">No screenshot, a skill faz a parte que dÃ¡ (nomes, estrutura, conexÃµes faltando) e fecha com: "Compartilhe o JSON para uma auditoria completa, incluindo expressÃµes e parÃ¢metros." Nunca finge ter visto o que nÃ£o viu. Essa honestiade Ã© o que evita que a saÃ­da seja confiada cega.</p>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê°Å¸âÂ¡</span> Dica de design: degradaêÂ§êÂ£o honesta</h3>
+<p class="text-neutral-300">No screenshot, a skill faz a parte que dêÂ¡ (nomes, estrutura, conexêÂµes faltando) e fecha com: "Compartilhe o JSON para uma auditoria completa, incluindo expressêÂµes e parêÂ¢metros." Nunca finge ter visto o que nêÂ£o viu. Essa honestiade êÂ© o que evita que a saêÂ­da seja confiada cega.</p>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ðŸŒ</span> Dica: responda no idioma do usuÃ¡rio</h3>
-<p class="text-neutral-300">Regra explÃ­cita do SKILL.md: responda sempre no idioma em que a pessoa escreve, mesmo que os rÃ³tulos do workflow estejam em outro idioma. Um workflow com nodes em alemÃ£o e uma pergunta em portuguÃªs recebe a resposta em portuguÃªs.</p>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê°Å¸ÅÂ</span> Dica: responda no idioma do usuêÂ¡rio</h3>
+<p class="text-neutral-300">Regra explêÂ­cita do SKILL.md: responda sempre no idioma em que a pessoa escreve, mesmo que os rêÂ³tulos do workflow estejam em outro idioma. Um workflow com nodes em alemêÂ£o e uma pergunta em portuguêÂªs recebe a resposta em portuguêÂªs.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Entrada flexÃ­vel</div><p class="text-xs text-neutral-400">Aceita o que a pessoa tem na mÃ£o.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">SuposiÃ§Ãµes visÃ­veis</div><p class="text-xs text-neutral-400">Declara o que assumiu antes de revisar.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Limites explÃ­citos</div><p class="text-xs text-neutral-400">Diz o que nÃ£o pÃ´de avaliar.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Uma pergunta sÃ³</div><p class="text-xs text-neutral-400">Se vago, pede UMA coisa especÃ­fica.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Entrada flexêÂ­vel</div><p class="text-xs text-neutral-400">Aceita o que a pessoa tem na mêÂ£o.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">SuposiêÂ§êÂµes visêÂ­veis</div><p class="text-xs text-neutral-400">Declara o que assumiu antes de revisar.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Limites explêÂ­citos</div><p class="text-xs text-neutral-400">Diz o que nêÂ£o pêÂ´de avaliar.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Uma pergunta sêÂ³</div><p class="text-xs text-neutral-400">Se vago, pede UMA coisa especêÂ­fica.</p></div>
 </div>
 </section>
-<!-- TÃ“PICO 3 -->
+<!-- TêâPICO 3 -->
 <section class="mb-16" id="topico-3">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">3</span>
-<h2 class="text-2xl font-bold">ðŸš¦ As cinco categorias da revisÃ£o</h2>
+<h2 class="text-2xl font-bold">ê°Å¸Å¡Â¦ As cinco categorias da revisêÂ£o</h2>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed">O coraÃ§Ã£o da skill Ã© um <strong class="text-amber-400">framework fixo de cinco categorias</strong> que rodam sempre, na mesma ordem, sem pular nenhuma. Se uma categoria estÃ¡ limpa, a skill diz isso em uma linha e segue. Rodar o mesmo checklist toda vez Ã© o que remove o viÃ©s do revisor.</p>
+<p class="text-neutral-300 mb-6 leading-relaxed">O coraêÂ§êÂ£o da skill êÂ© um <strong class="text-amber-400">framework fixo de cinco categorias</strong> que rodam sempre, na mesma ordem, sem pular nenhuma. Se uma categoria estêÂ¡ limpa, a skill diz isso em uma linha e segue. Rodar o mesmo checklist toda vez êÂ© o que remove o viêÂ©s do revisor.</p>
 <div class="space-y-4 mb-6">
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">1</span></div>
-<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ðŸ”´ Erros &amp; quebras</h4><p class="text-neutral-400 text-sm">O que vai falhar de fato: campo obrigatÃ³rio vazio, credencial hardcoded, expressÃ£o referenciando campo inexistente, conexÃ£o faltando, mÃ©todo HTTP errado, IF/Switch sem fallback.</p></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ê°Å¸âÂ´ Erros &amp; quebras</h4><p class="text-neutral-400 text-sm">O que vai falhar de fato: campo obrigatêÂ³rio vazio, credencial hardcoded, expressêÂ£o referenciando campo inexistente, conexêÂ£o faltando, mêÂ©todo HTTP errado, IF/Switch sem fallback.</p></div>
 </div>
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">2</span></div>
-<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ðŸŸ¡ Erro silencioso</h4><p class="text-neutral-400 text-sm">NÃ£o quebra agora, falha calado depois: sem Error Trigger, HTTP sem retry/timeout, escrita em banco sem checar duplicata, nenhum alerta na falha.</p></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ê°Å¸Å¸Â¡ Erro silencioso</h4><p class="text-neutral-400 text-sm">NêÂ£o quebra agora, falha calado depois: sem Error Trigger, HTTP sem retry/timeout, escrita em banco sem checar duplicata, nenhum alerta na falha.</p></div>
 </div>
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">3</span></div>
-<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ðŸ”µ Performance &amp; eficiÃªncia</h4><p class="text-neutral-400 text-sm">Funciona, mas custa tempo/dinheiro/chamadas: API desnecessÃ¡ria, sem paginaÃ§Ã£o, loop onde caberia batch, gatilho frequente demais, Set nodes redundantes.</p></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ê°Å¸âÂµ Performance &amp; eficiêÂªncia</h4><p class="text-neutral-400 text-sm">Funciona, mas custa tempo/dinheiro/chamadas: API desnecessêÂ¡ria, sem paginaêÂ§êÂ£o, loop onde caberia batch, gatilho frequente demais, Set nodes redundantes.</p></div>
 </div>
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">4</span></div>
-<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ðŸŸ¢ Estrutura &amp; manutenibilidade</h4><p class="text-neutral-400 text-sm">O que vira pesadelo em 6 meses: nodes "HTTP Request1", sem sticky notes, lÃ³gica de negÃ³cio enterrada em expressÃ£o, workflow gigante que devia virar subworkflow.</p></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ê°Å¸Å¸Â¢ Estrutura &amp; manutenibilidade</h4><p class="text-neutral-400 text-sm">O que vira pesadelo em 6 meses: nodes "HTTP Request1", sem sticky notes, lêÂ³gica de negêÂ³cio enterrada em expressêÂ£o, workflow gigante que devia virar subworkflow.</p></div>
 </div>
 <div class="flex items-start space-x-4">
 <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">5</span></div>
-<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">âœ… Resumo &amp; lista de prioridades</h4><p class="text-neutral-400 text-sm">Fecha com correÃ§Ãµes rankeadas em trÃªs nÃ­veis â€” agora / depois / opcional â€” mais uma nota de 0 a 10 com um veredito de uma frase.</p></div>
+<div class="flex-1 bg-dark-800 rounded-xl p-5 border border-dark-600"><h4 class="font-semibold mb-1">ê¢Åâ¦ Resumo &amp; lista de prioridades</h4><p class="text-neutral-400 text-sm">Fecha com correêÂ§êÂµes rankeadas em trêÂªs nêÂ­veis ê¢â¬â agora / depois / opcional ê¢â¬â mais uma nota de 0 a 10 com um veredito de uma frase.</p></div>
 </div>
 </div>
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ðŸ“Š</span> Por que cinco categorias fixas funcionam</h3>
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸âÅ </span> Por que cinco categorias fixas funcionam</h3>
 <ul class="space-y-2 text-neutral-300 text-sm">
-<li>â€¢ <strong>Cobertura garantida:</strong> "nÃ£o pule nenhuma categoria" impede que a revisÃ£o pare no primeiro erro Ã³bvio.</li>
-<li>â€¢ <strong>Severidade legÃ­vel:</strong> as cores ðŸ”´ðŸŸ¡ðŸ”µðŸŸ¢ dizem em um relance o que Ã© urgente e o que Ã© polimento.</li>
-<li>â€¢ <strong>RepetÃ­vel:</strong> dois workflows diferentes recebem a mesma lente â€” comparÃ¡vel e sem humor do dia.</li>
+<li>ê¢â¬Â¢ <strong>Cobertura garantida:</strong> "nêÂ£o pule nenhuma categoria" impede que a revisêÂ£o pare no primeiro erro êÂ³bvio.</li>
+<li>ê¢â¬Â¢ <strong>Severidade legêÂ­vel:</strong> as cores ê°Å¸âÂ´ê°Å¸Å¸Â¡ê°Å¸âÂµê°Å¸Å¸Â¢ dizem em um relance o que êÂ© urgente e o que êÂ© polimento.</li>
+<li>ê¢â¬Â¢ <strong>RepetêÂ­vel:</strong> dois workflows diferentes recebem a mesma lente ê¢â¬â comparêÂ¡vel e sem humor do dia.</li>
 </ul>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Checklist fixo</div><p class="text-xs text-neutral-400">Sempre as cinco, na ordem.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Severidade por cor</div><p class="text-xs text-neutral-400">ðŸ”´ quebra Â· ðŸŸ¡ silÃªncio Â· ðŸ”µ custo.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">"Limpa" tambÃ©m conta</div><p class="text-xs text-neutral-400">Diz numa linha quando estÃ¡ OK.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Severidade por cor</div><p class="text-xs text-neutral-400">ê°Å¸âÂ´ quebra êÂ· ê°Å¸Å¸Â¡ silêÂªncio êÂ· ê°Å¸âÂµ custo.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">"Limpa" tambêÂ©m conta</div><p class="text-xs text-neutral-400">Diz numa linha quando estêÂ¡ OK.</p></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Termina priorizado</div><p class="text-xs text-neutral-400">Agora / depois / opcional + nota.</p></div>
 </div>
 </section>
-<!-- TÃ“PICO 4 -->
+<!-- TêâPICO 4 -->
 <section class="mb-16" id="topico-4">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">4</span>
-<h2 class="text-2xl font-bold">ðŸ”‡ A falha silenciosa</h2>
+<h2 class="text-2xl font-bold">ê°Å¸ââ¡ A falha silenciosa</h2>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed">Esta Ã© a categoria mais valiosa e a mais ignorada. O erro que <strong class="text-red-400">aparece</strong> Ã© fÃ¡cil: ele grita, alguÃ©m conserta. O erro que <strong class="text-amber-400">some</strong> â€” o registro que nÃ£o foi gravado, o lead que nÃ£o entrou, o webhook que retornou 500 e ninguÃ©m viu â€” Ã© o que corrÃ³i a confianÃ§a no sistema inteiro. A categoria ðŸŸ¡ existe para caÃ§ar exatamente esses.</p>
+<p class="text-neutral-300 mb-6 leading-relaxed">Esta êÂ© a categoria mais valiosa e a mais ignorada. O erro que <strong class="text-red-400">aparece</strong> êÂ© fêÂ¡cil: ele grita, alguêÂ©m conserta. O erro que <strong class="text-amber-400">some</strong> ê¢â¬â o registro que nêÂ£o foi gravado, o lead que nêÂ£o entrou, o webhook que retornou 500 e ninguêÂ©m viu ê¢â¬â êÂ© o que corrêÂ³i a confianêÂ§a no sistema inteiro. A categoria ê°Å¸Å¸Â¡ existe para caêÂ§ar exatamente esses.</p>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
-<h4 class="font-bold text-emerald-400 mb-4">âœ“ Salvaguardas que a skill cobra</h4>
+<h4 class="font-bold text-emerald-400 mb-4">ê¢Åâ Salvaguardas que a skill cobra</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Um Error Trigger conectado a um alerta (Slack, e-mail).</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Retry e timeout nos nodes HTTP de longa duraÃ§Ã£o.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>ValidaÃ§Ã£o de resposta nos webhooks.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Checagem de duplicata antes de escrever em banco/Airtable.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>DecisÃ£o consciente de "Continue on Fail" (Ã s vezes liga, Ã s vezes nÃ£o).</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Um Error Trigger conectado a um alerta (Slack, e-mail).</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Retry e timeout nos nodes HTTP de longa duraêÂ§êÂ£o.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>ValidaêÂ§êÂ£o de resposta nos webhooks.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Checagem de duplicata antes de escrever em banco/Airtable.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>DecisêÂ£o consciente de "Continue on Fail" (êÂ s vezes liga, êÂ s vezes nêÂ£o).</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-<h4 class="font-bold text-red-400 mb-4">âœ— Sintomas de falha silenciosa</h4>
+<h4 class="font-bold text-red-400 mb-4">ê¢Åâ Sintomas de falha silenciosa</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>"O workflow roda, mas alguns registros nÃ£o atualizam."</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>"Funciona quando testo, mas falha de vez em quando."</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Nenhuma notificaÃ§Ã£o quando uma execuÃ§Ã£o falha de madrugada.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Duplicatas se acumulando porque nada checa antes de inserir.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Um Schedule Trigger desconectado que ninguÃ©m percebeu.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>"O workflow roda, mas alguns registros nêÂ£o atualizam."</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>"Funciona quando testo, mas falha de vez em quando."</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Nenhuma notificaêÂ§êÂ£o quando uma execuêÂ§êÂ£o falha de madrugada.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Duplicatas se acumulando porque nada checa antes de inserir.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Um Schedule Trigger desconectado que ninguêÂ©m percebeu.</span></li>
 </ul>
 </div>
 </div>
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
-<h3 class="text-lg font-semibold text-amber-400 mb-4">O formato de cada achado ðŸŸ¡</h3>
-<pre class="font-mono text-sm text-neutral-300 bg-dark-900 rounded-lg p-4 overflow-x-auto border border-dark-600">âš ï¸ [Node ou seÃ§Ã£o] â€” [salvaguarda faltando]
-   Risco: [o que vai quebrar em silÃªncio]
+<h3 class="text-lg font-semibold text-amber-400 mb-4">O formato de cada achado ê°Å¸Å¸Â¡</h3>
+<pre class="font-mono text-sm text-neutral-300 bg-dark-900 rounded-lg p-4 overflow-x-auto border border-dark-600">ê¢Å¡Â ê¯Â¸Â [Node ou seêÂ§êÂ£o] ê¢â¬â [salvaguarda faltando]
+   Risco: [o que vai quebrar em silêÂªncio]
    Fix:   [o que adicionar, concreto]</pre>
-<p class="text-neutral-400 text-sm mt-4">Repare nos trÃªs campos: <strong class="text-neutral-300">onde</strong>, <strong class="text-neutral-300">qual o risco</strong> e <strong class="text-neutral-300">o conserto</strong>. Sem o risco explÃ­cito, ninguÃ©m prioriza; sem o fix, ninguÃ©m age.</p>
+<p class="text-neutral-400 text-sm mt-4">Repare nos trêÂªs campos: <strong class="text-neutral-300">onde</strong>, <strong class="text-neutral-300">qual o risco</strong> e <strong class="text-neutral-300">o conserto</strong>. Sem o risco explêÂ­cito, ninguêÂ©m prioriza; sem o fix, ninguêÂ©m age.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Error Trigger</div><p class="text-xs text-neutral-400">A rede de seguranÃ§a mÃ­nima.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Retry + timeout</div><p class="text-xs text-neutral-400">API instÃ¡vel nÃ£o derruba o fluxo.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Alerta na falha</div><p class="text-xs text-neutral-400">VocÃª sabe antes do cliente.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Error Trigger</div><p class="text-xs text-neutral-400">A rede de seguranêÂ§a mêÂ­nima.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Retry + timeout</div><p class="text-xs text-neutral-400">API instêÂ¡vel nêÂ£o derruba o fluxo.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Alerta na falha</div><p class="text-xs text-neutral-400">VocêÂª sabe antes do cliente.</p></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">"Qual dado some?"</div><p class="text-xs text-neutral-400">A pergunta que guia a categoria.</p></div>
 </div>
 </section>
-<!-- TÃ“PICO 5 -->
+<!-- TêâPICO 5 -->
 <section class="mb-16" id="topico-5">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">5</span>
-<h2 class="text-2xl font-bold">ðŸ’¸ Custo e manutenibilidade</h2>
+<h2 class="text-2xl font-bold">ê°Å¸âÂ¸ Custo e manutenibilidade</h2>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed">As categorias ðŸ”µ e ðŸŸ¢ cuidam do que nÃ£o quebra hoje mas custa caro amanhÃ£: a ðŸ”µ olha o dinheiro e o tempo que o workflow desperdiÃ§a em produÃ§Ã£o; a ðŸŸ¢ olha as horas que o "vocÃª de daqui a 6 meses" vai perder tentando entender o que cada node faz.</p>
+<p class="text-neutral-300 mb-6 leading-relaxed">As categorias ê°Å¸âÂµ e ê°Å¸Å¸Â¢ cuidam do que nêÂ£o quebra hoje mas custa caro amanhêÂ£: a ê°Å¸âÂµ olha o dinheiro e o tempo que o workflow desperdiêÂ§a em produêÂ§êÂ£o; a ê°Å¸Å¸Â¢ olha as horas que o "vocêÂª de daqui a 6 meses" vai perder tentando entender o que cada node faz.</p>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
-<h4 class="font-bold text-emerald-400 mb-4">âœ“ Workflow eficiente e legÃ­vel</h4>
+<h4 class="font-bold text-emerald-400 mb-4">ê¢Åâ Workflow eficiente e legêÂ­vel</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>OperaÃ§Ã£o em batch no lugar de loop item a item.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>PaginaÃ§Ã£o tratada para datasets grandes.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Busca sÃ³ os campos que vai usar, nÃ£o o objeto inteiro.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>Nodes com nome descritivo e sticky notes na lÃ³gica complexa.</span></li>
-<li class="flex items-start space-x-2"><span class="text-emerald-400">âœ“</span><span>SeÃ§Ãµes claras: entradas â†’ processamento â†’ saÃ­das.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>OperaêÂ§êÂ£o em batch no lugar de loop item a item.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>PaginaêÂ§êÂ£o tratada para datasets grandes.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Busca sêÂ³ os campos que vai usar, nêÂ£o o objeto inteiro.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>Nodes com nome descritivo e sticky notes na lêÂ³gica complexa.</span></li>
+<li class="flex items-start space-x-2"><span class="text-emerald-400">ê¢Åâ</span><span>SeêÂ§êÂµes claras: entradas ê¢â â processamento ê¢â â saêÂ­das.</span></li>
 </ul>
 </div>
 <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-<h4 class="font-bold text-red-400 mb-4">âœ— O que sangra custo e tempo</h4>
+<h4 class="font-bold text-red-400 mb-4">ê¢Åâ O que sangra custo e tempo</h4>
 <ul class="space-y-3 text-neutral-300 text-sm">
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Loop fazendo 1 chamada de API por item â€” paga por cada uma.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Gatilho a cada minuto quando a cada hora resolveria.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Nodes "Set3" e "HTTP Request1" â€” ninguÃ©m sabe o que fazem.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>LÃ³gica de negÃ³cio enterrada numa expressÃ£o de 200 caracteres.</span></li>
-<li class="flex items-start space-x-2"><span class="text-red-400">âœ—</span><span>Um workflow monstro que devia ser trÃªs subworkflows.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Loop fazendo 1 chamada de API por item ê¢â¬â paga por cada uma.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Gatilho a cada minuto quando a cada hora resolveria.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Nodes "Set3" e "HTTP Request1" ê¢â¬â ninguêÂ©m sabe o que fazem.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>LêÂ³gica de negêÂ³cio enterrada numa expressêÂ£o de 200 caracteres.</span></li>
+<li class="flex items-start space-x-2"><span class="text-red-400">ê¢Åâ</span><span>Um workflow monstro que devia ser trêÂªs subworkflows.</span></li>
 </ul>
 </div>
 </div>
 <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ðŸ”µ</span> O formato do achado de performance</h3>
-<pre class="font-mono text-sm text-neutral-300 bg-dark-900 rounded-lg p-4 overflow-x-auto border border-dark-600">ðŸ”µ [Node ou padrÃ£o] â€” [ineficiÃªncia]
+<h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">ê°Å¸âÂµ</span> O formato do achado de performance</h3>
+<pre class="font-mono text-sm text-neutral-300 bg-dark-900 rounded-lg p-4 overflow-x-auto border border-dark-600">ê°Å¸âÂµ [Node ou padrêÂ£o] ê¢â¬â [ineficiêÂªncia]
    Impacto:     [custo / velocidade / confiabilidade]
-   OtimizaÃ§Ã£o:  [melhoria especÃ­fica]</pre>
+   OtimizaêÂ§êÂ£o:  [melhoria especêÂ­fica]</pre>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ðŸ’¡</span> Dica: o teste dos "6 meses"</h3>
-<p class="text-neutral-300">A pergunta-guia da categoria ðŸŸ¢ Ã©: "se eu abrir este workflow daqui a 6 meses, sem contexto, entendo em 2 minutos?" Se a resposta Ã© nÃ£o, hÃ¡ um achado de manutenibilidade â€” e o fix Ã© quase sempre renomear node, extrair lÃ³gica para um Set node ou adicionar uma sticky note.</p>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê°Å¸âÂ¡</span> Dica: o teste dos "6 meses"</h3>
+<p class="text-neutral-300">A pergunta-guia da categoria ê°Å¸Å¸Â¢ êÂ©: "se eu abrir este workflow daqui a 6 meses, sem contexto, entendo em 2 minutos?" Se a resposta êÂ© nêÂ£o, hêÂ¡ um achado de manutenibilidade ê¢â¬â e o fix êÂ© quase sempre renomear node, extrair lêÂ³gica para um Set node ou adicionar uma sticky note.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Batch &gt; loop</div><p class="text-xs text-neutral-400">Menos chamadas, menos custo.</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">PaginaÃ§Ã£o</div><p class="text-xs text-neutral-400">Datasets grandes nÃ£o estouram.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">PaginaêÂ§êÂ£o</div><p class="text-xs text-neutral-400">Datasets grandes nêÂ£o estouram.</p></div>
 <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Nomes descritivos</div><p class="text-xs text-neutral-400">"Buscar contatos" &gt; "HTTP Request1".</p></div>
-<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Sticky notes</div><p class="text-xs text-neutral-400">Documentam a lÃ³gica difÃ­cil.</p></div>
+<div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-amber-400 font-bold text-sm mb-1">Sticky notes</div><p class="text-xs text-neutral-400">Documentam a lêÂ³gica difêÂ­cil.</p></div>
 </div>
 </section>
-<!-- TÃ“PICO 6 -->
+<!-- TêâPICO 6 -->
 <section class="mb-16" id="topico-6">
 <div class="flex items-center space-x-4 mb-6">
 <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">6</span>
-<h2 class="text-2xl font-bold">ðŸ—ï¸ Construir o seu reviewer</h2>
+<h2 class="text-2xl font-bold">ê°Å¸Ââê¯Â¸Â Construir o seu reviewer</h2>
 </div>
-<p class="text-neutral-300 mb-6 leading-relaxed">Agora vocÃª junta tudo num <code class="font-mono text-amber-400 text-sm">SKILL.md</code> autoral. A estrutura Ã© replicÃ¡vel para revisar <strong class="text-amber-400">qualquer</strong> artefato tÃ©cnico â€” basta trocar o domÃ­nio e o checklist. O que faz o reviewer ser bom nÃ£o Ã© o n8n: Ã© o tom direto, o formato de achado e o veredito honesto.</p>
+<p class="text-neutral-300 mb-6 leading-relaxed">Agora vocêÂª junta tudo num <code class="font-mono text-amber-400 text-sm">SKILL.md</code> autoral. A estrutura êÂ© replicêÂ¡vel para revisar <strong class="text-amber-400">qualquer</strong> artefato têÂ©cnico ê¢â¬â basta trocar o domêÂ­nio e o checklist. O que faz o reviewer ser bom nêÂ£o êÂ© o n8n: êÂ© o tom direto, o formato de achado e o veredito honesto.</p>
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
-<h3 class="text-lg font-semibold text-amber-400 mb-3">Prompt copiÃ¡vel â€” esqueleto do SKILL.md</h3>
+<h3 class="text-lg font-semibold text-amber-400 mb-3">Prompt copiêÂ¡vel ê¢â¬â esqueleto do SKILL.md</h3>
 <pre class="font-mono text-xs sm:text-sm text-neutral-300 bg-dark-900 rounded-lg p-4 overflow-x-auto border border-dark-600">---
 name: workflow-reviewer
 description: Reviews automation workflows for errors, inefficiencies and
@@ -382,100 +382,100 @@ No fluff, no vague advice. Name the exact node. Give the exact fix.
 
 ## Run ALL five categories, in order. Skip none.
 
-1. ðŸ”´ ERRORS &amp; BREAKS â€” what will fail in production
-2. ðŸŸ¡ MISSING ERROR HANDLING â€” what will fail silently
-3. ðŸ”µ PERFORMANCE â€” unnecessary calls, cost leaks, slow loops
-4. ðŸŸ¢ STRUCTURE â€” naming, maintainability, subworkflow candidates
-5. âœ… SUMMARY â€” priority fix list + OVERALL SCORE: [X/10]
+1. ê°Å¸âÂ´ ERRORS &amp; BREAKS ê¢â¬â what will fail in production
+2. ê°Å¸Å¸Â¡ MISSING ERROR HANDLING ê¢â¬â what will fail silently
+3. ê°Å¸âÂµ PERFORMANCE ê¢â¬â unnecessary calls, cost leaks, slow loops
+4. ê°Å¸Å¸Â¢ STRUCTURE ê¢â¬â naming, maintainability, subworkflow candidates
+5. ê¢Åâ¦ SUMMARY ê¢â¬â priority fix list + OVERALL SCORE: [X/10]
 
 For each finding use:
-  [emoji] [Node Name] â€” [issue]
+  [emoji] [Node Name] ê¢â¬â [issue]
      Fix: [exact fix, 1-2 sentences]
 
 If a category is clean, say so in one line. If the input is too vague,
-ask ONE specific question. If it's well-built, say so â€” don't invent problems.</pre>
+ask ONE specific question. If it's well-built, say so ê¢â¬â don't invent problems.</pre>
 </div>
 <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
-<h3 class="text-lg font-semibold text-amber-400 mb-3">Exemplo de saÃ­da â€” auditoria real (recriaÃ§Ã£o ilustrativa)</h3>
-<pre class="font-mono text-xs sm:text-sm text-neutral-300 bg-dark-900 rounded-lg p-4 overflow-x-auto border border-dark-600">ðŸ”´ ERRORS &amp; BREAKS
-âŒ Schedule Trigger â€” node desconectado do resto do fluxo.
-   Fix: conecte a saÃ­da do Schedule Trigger ao node "Buscar leads".
-âŒ Parse JSON â€” expressÃ£o {{ $json.data.items }} quebra quando a API
+<h3 class="text-lg font-semibold text-amber-400 mb-3">Exemplo de saêÂ­da ê¢â¬â auditoria real (recriaêÂ§êÂ£o ilustrativa)</h3>
+<pre class="font-mono text-xs sm:text-sm text-neutral-300 bg-dark-900 rounded-lg p-4 overflow-x-auto border border-dark-600">ê°Å¸âÂ´ ERRORS &amp; BREAKS
+ê¢ÂÅ Schedule Trigger ê¢â¬â node desconectado do resto do fluxo.
+   Fix: conecte a saêÂ­da do Schedule Trigger ao node "Buscar leads".
+ê¢ÂÅ Parse JSON ê¢â¬â expressêÂ£o {{ $json.data.items }} quebra quando a API
    retorna {error}. Fix: adicione um IF checando $json.error antes do parse.
 
-ðŸŸ¡ MISSING ERROR HANDLING
-âš ï¸ HTTP Request "Enviar Slack" â€” sem retry nem alerta.
-   Risco: notificaÃ§Ã£o some se o Slack der 429. Fix: ative retry (3x) e
+ê°Å¸Å¸Â¡ MISSING ERROR HANDLING
+ê¢Å¡Â ê¯Â¸Â HTTP Request "Enviar Slack" ê¢â¬â sem retry nem alerta.
+   Risco: notificaêÂ§êÂ£o some se o Slack der 429. Fix: ative retry (3x) e
    conecte um Error Trigger a um e-mail de fallback.
-âš ï¸ Airtable "Inserir" â€” sem checagem de duplicata.
-   Risco: leads duplicados a cada re-execuÃ§Ã£o. Fix: use "Upsert" pela chave email.
+ê¢Å¡Â ê¯Â¸Â Airtable "Inserir" ê¢â¬â sem checagem de duplicata.
+   Risco: leads duplicados a cada re-execuêÂ§êÂ£o. Fix: use "Upsert" pela chave email.
 
-ðŸ”µ PERFORMANCE
-ðŸ”µ Loop "Para cada lead" â€” 1 chamada HTTP por item.
-   Impacto: ~600 chamadas/dia, custo e lentidÃ£o. OtimizaÃ§Ã£o: troque por
+ê°Å¸âÂµ PERFORMANCE
+ê°Å¸âÂµ Loop "Para cada lead" ê¢â¬â 1 chamada HTTP por item.
+   Impacto: ~600 chamadas/dia, custo e lentidêÂ£o. OtimizaêÂ§êÂ£o: troque por
    uma chamada batch enviando o array inteiro.
 
-ðŸŸ¢ STRUCTURE
-ðŸŸ¢ Nodes "Set3", "HTTP Request1" â€” nomes default.
-   SugestÃ£o: renomeie para "Montar payload" e "Buscar perfil".
+ê°Å¸Å¸Â¢ STRUCTURE
+ê°Å¸Å¸Â¢ Nodes "Set3", "HTTP Request1" ê¢â¬â nomes default.
+   SugestêÂ£o: renomeie para "Montar payload" e "Buscar perfil".
 
-âœ… SUMMARY
+ê¢Åâ¦ SUMMARY
 PRIORITY FIXES (do these now):
   1. Conectar o Schedule Trigger.
   2. Tratar o parse de JSON na resposta de erro.
   3. Adicionar Error Trigger + retry no Slack.
 IMPROVEMENTS (next): batch no loop; upsert no Airtable.
-OPTIONAL: renomear nodes; sticky notes nas seÃ§Ãµes.
-OVERALL SCORE: 5/10 â€” funciona no caminho feliz, frÃ¡gil em produÃ§Ã£o.</pre>
-<p class="text-neutral-500 text-xs mt-3">SaÃ­da recriada para fins didÃ¡ticos â€” ilustra o formato, nÃ£o Ã© um relatÃ³rio real de cliente.</p>
+OPTIONAL: renomear nodes; sticky notes nas seêÂ§êÂµes.
+OVERALL SCORE: 5/10 ê¢â¬â funciona no caminho feliz, frêÂ¡gil em produêÂ§êÂ£o.</pre>
+<p class="text-neutral-500 text-xs mt-3">SaêÂ­da recriada para fins didêÂ¡ticos ê¢â¬â ilustra o formato, nêÂ£o êÂ© um relatêÂ³rio real de cliente.</p>
 </div>
 <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">â­</span> As regras de tom que fazem a diferenÃ§a</h3>
+<h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">ê¢Â­Â</span> As regras de tom que fazem a diferenêÂ§a</h3>
 <ul class="space-y-2 text-neutral-300 text-sm">
-<li>â€¢ <strong>Seja direto:</strong> "isso vai quebrar em produÃ§Ã£o" &gt; "vocÃª pode querer considerar...".</li>
-<li>â€¢ <strong>Nomeie o node exato:</strong> feedback vago Ã© inÃºtil.</li>
-<li>â€¢ <strong>DÃª o conserto, nÃ£o a direÃ§Ã£o:</strong> "adicione um Error Trigger ligado a um Slack" &gt; "adicione tratamento de erro".</li>
-<li>â€¢ <strong>Elogie o que estÃ¡ bom:</strong> se o workflow Ã© sÃ³lido, diga â€” nÃ£o invente problema.</li>
-<li>â€¢ <strong>Quando perguntam "estÃ¡ bom?":</strong> dÃª nota honesta + os 3 maiores problemas; nÃ£o sÃ³ valide.</li>
+<li>ê¢â¬Â¢ <strong>Seja direto:</strong> "isso vai quebrar em produêÂ§êÂ£o" &gt; "vocêÂª pode querer considerar...".</li>
+<li>ê¢â¬Â¢ <strong>Nomeie o node exato:</strong> feedback vago êÂ© inêÂºtil.</li>
+<li>ê¢â¬Â¢ <strong>DêÂª o conserto, nêÂ£o a direêÂ§êÂ£o:</strong> "adicione um Error Trigger ligado a um Slack" &gt; "adicione tratamento de erro".</li>
+<li>ê¢â¬Â¢ <strong>Elogie o que estêÂ¡ bom:</strong> se o workflow êÂ© sêÂ³lido, diga ê¢â¬â nêÂ£o invente problema.</li>
+<li>ê¢â¬Â¢ <strong>Quando perguntam "estêÂ¡ bom?":</strong> dêÂª nota honesta + os 3 maiores problemas; nêÂ£o sêÂ³ valide.</li>
 </ul>
 </div>
-<!-- EXERCÃCIOS -->
+<!-- EXERCêÂCIOS -->
 <div class="bg-dark-800 rounded-xl border border-amber-500/30 p-6">
-<h3 class="text-xl font-bold text-amber-400 mb-4 flex items-center"><span class="mr-2">âœï¸</span> ExercÃ­cios prÃ¡ticos</h3>
+<h3 class="text-xl font-bold text-amber-400 mb-4 flex items-center"><span class="mr-2">ê¢ÅÂê¯Â¸Â</span> ExercêÂ­cios prêÂ¡ticos</h3>
 <div class="space-y-4">
-<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">1</span><p class="text-neutral-300 text-sm"><strong>Revise um fluxo seu.</strong> Pegue um workflow que vocÃª tenha (ou descreva um em texto) e rode mentalmente as cinco categorias. Anote ao menos um achado ðŸŸ¡ de falha silenciosa que vocÃª nunca tinha notado.</p></div>
-<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">2</span><p class="text-neutral-300 text-sm"><strong>Crie um SKILL.md rodÃ¡vel.</strong> Copie o esqueleto acima para <code class="font-mono text-xs">~/.claude/skills/workflow-reviewer/SKILL.md</code>, ajuste a <code class="font-mono text-xs">description</code> com seus gatilhos e teste pedindo ao Claude para revisar um fluxo descrito em texto.</p></div>
-<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">3</span><p class="text-neutral-300 text-sm"><strong>Generalize.</strong> Troque o domÃ­nio: adapte o reviewer para auditar um schema de banco ou um arquivo de configuraÃ§Ã£o de CI. Quais das cinco categorias mudam? Quais permanecem idÃªnticas?</p></div>
-<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">4</span><p class="text-neutral-300 text-sm"><strong>Teste o "estÃ¡ bom?".</strong> PeÃ§a ao seu reviewer para avaliar um fluxo deliberadamente bem-feito. Ele resiste Ã  tentaÃ§Ã£o de inventar problemas e dÃ¡ uma nota alta honesta?</p></div>
+<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">1</span><p class="text-neutral-300 text-sm"><strong>Revise um fluxo seu.</strong> Pegue um workflow que vocêÂª tenha (ou descreva um em texto) e rode mentalmente as cinco categorias. Anote ao menos um achado ê°Å¸Å¸Â¡ de falha silenciosa que vocêÂª nunca tinha notado.</p></div>
+<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">2</span><p class="text-neutral-300 text-sm"><strong>Crie um SKILL.md rodêÂ¡vel.</strong> Copie o esqueleto acima para <code class="font-mono text-xs">~/.claude/skills/workflow-reviewer/SKILL.md</code>, ajuste a <code class="font-mono text-xs">description</code> com seus gatilhos e teste pedindo ao Claude para revisar um fluxo descrito em texto.</p></div>
+<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">3</span><p class="text-neutral-300 text-sm"><strong>Generalize.</strong> Troque o domêÂ­nio: adapte o reviewer para auditar um schema de banco ou um arquivo de configuraêÂ§êÂ£o de CI. Quais das cinco categorias mudam? Quais permanecem idêÂªnticas?</p></div>
+<div class="flex items-start space-x-3"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 text-sm font-bold flex items-center justify-center">4</span><p class="text-neutral-300 text-sm"><strong>Teste o "estêÂ¡ bom?".</strong> PeêÂ§a ao seu reviewer para avaliar um fluxo deliberadamente bem-feito. Ele resiste êÂ  tentaêÂ§êÂ£o de inventar problemas e dêÂ¡ uma nota alta honesta?</p></div>
 </div>
 </div>
 </section>
 <!-- RESUMO -->
 <section class="mb-12">
 <div class="bg-gradient-to-br from-amber-900/40 via-dark-800 to-dark-800 rounded-xl border border-amber-500/30 p-8">
-<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">ðŸ“Œ</span> Resumo do MÃ³dulo</h2>
+<h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">ê°Å¸âÅ</span> Resumo do MêÂ³dulo</h2>
 <div class="space-y-4 mb-8">
-<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">âœ“</span><div><strong class="text-neutral-100">Workflow Ã© cÃ³digo</strong><span class="text-neutral-400"> â€” e merece um code review estruturado, nÃ£o um "parece OK".</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">âœ“</span><div><strong class="text-neutral-100">Cinco entradas aceitas</strong><span class="text-neutral-400"> â€” JSON, parcial, texto, erro ou print; sempre honesto sobre o que dÃ¡ pra avaliar.</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">âœ“</span><div><strong class="text-neutral-100">Cinco categorias fixas</strong><span class="text-neutral-400"> â€” ðŸ”´ quebra, ðŸŸ¡ silÃªncio, ðŸ”µ custo, ðŸŸ¢ manutenÃ§Ã£o, âœ… prioridades + nota.</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">âœ“</span><div><strong class="text-neutral-100">A falha silenciosa Ã© o ouro</strong><span class="text-neutral-400"> â€” o erro que some Ã© o que destrÃ³i a confianÃ§a; Error Trigger Ã© o mÃ­nimo.</span></div></div>
-<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">âœ“</span><div><strong class="text-neutral-100">Tom direto + fix concreto</strong><span class="text-neutral-400"> â€” nomeie o node, dÃª o conserto, elogie o que estÃ¡ bom, dÃª nota honesta.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">ê¢Åâ</span><div><strong class="text-neutral-100">Workflow êÂ© cêÂ³digo</strong><span class="text-neutral-400"> ê¢â¬â e merece um code review estruturado, nêÂ£o um "parece OK".</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">ê¢Åâ</span><div><strong class="text-neutral-100">Cinco entradas aceitas</strong><span class="text-neutral-400"> ê¢â¬â JSON, parcial, texto, erro ou print; sempre honesto sobre o que dêÂ¡ pra avaliar.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">ê¢Åâ</span><div><strong class="text-neutral-100">Cinco categorias fixas</strong><span class="text-neutral-400"> ê¢â¬â ê°Å¸âÂ´ quebra, ê°Å¸Å¸Â¡ silêÂªncio, ê°Å¸âÂµ custo, ê°Å¸Å¸Â¢ manutenêÂ§êÂ£o, ê¢Åâ¦ prioridades + nota.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">ê¢Åâ</span><div><strong class="text-neutral-100">A falha silenciosa êÂ© o ouro</strong><span class="text-neutral-400"> ê¢â¬â o erro que some êÂ© o que destrêÂ³i a confianêÂ§a; Error Trigger êÂ© o mêÂ­nimo.</span></div></div>
+<div class="flex items-start space-x-3"><span class="text-amber-400 mt-1">ê¢Åâ</span><div><strong class="text-neutral-100">Tom direto + fix concreto</strong><span class="text-neutral-400"> ê¢â¬â nomeie o node, dêÂª o conserto, elogie o que estêÂ¡ bom, dêÂª nota honesta.</span></div></div>
 </div>
 <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
-<h3 class="font-semibold text-amber-400 mb-2">PrÃ³ximo MÃ³dulo:</h3>
-<p class="text-neutral-300">4.2 â€” ðŸ”¥ Local Leads Abundance System: encadear vÃ¡rias skills num pipeline multi-agente.</p>
+<h3 class="font-semibold text-amber-400 mb-2">PrêÂ³ximo MêÂ³dulo:</h3>
+<p class="text-neutral-300">4.2 ê¢â¬â ê°Å¸âÂ¥ Local Leads Abundance System: encadear vêÂ¡rias skills num pipeline multi-agente.</p>
 </div>
 <div class="flex flex-col sm:flex-row gap-4">
-<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">â† Voltar para Trilha</a>
-<a class="flex-1 text-center px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-500 transition-colors" href="modulo-4-2.html">PrÃ³ximo MÃ³dulo â†’</a>
+<a class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors" href="index.html">ê¢â Â Voltar para Trilha</a>
+<a class="flex-1 text-center px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-500 transition-colors" href="modulo-4-2.html">PrêÂ³ximo MêÂ³dulo ê¢â â</a>
 </div>
 </div>
 </section>
 </main>
 <footer class="border-t border-dark-600 py-8 mt-16">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
-<p class="mb-2">âš¡ Claude Skills na PrÃ¡tica â€” 2026 Â· <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a></p>
-<p>MÃ³dulo 4.1 Â· n8n Workflow Reviewer</p>
+<p class="mb-2">ê¢Å¡Â¡ Claude Skills na PrêÂ¡tica ê¢â¬â 2026 êÂ· <a class="text-sky-400 hover:text-sky-300" href="https://ARCKHê AI" target="_blank">ARCKHê AI</a></p>
+<p>MêÂ³dulo 4.1 êÂ· n8n Workflow Reviewer</p>
 </div>
 </footer>
 <script>
